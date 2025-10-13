@@ -1,0 +1,33 @@
+{
+  "last_updated": "2025-10-13T13:14:35.807313",
+  "statistics": {
+    "total_datasets": 1680,
+    "total_downloads": 1452051,
+    "total_likes": 13995,
+    "top_authors": {
+      "Aratako": 51,
+      "hpprc": 39,
+      "llm-jp": 20,
+      "animetimm": 20,
+      "deepghs": 18,
+      "hotchpotch": 18,
+      "ayousanz": 17,
+      "p1atdev": 16,
+      "HachiML": 15,
+      "Silviase": 15
+    },
+    "top_tasks": {
+      "text-generation": 384,
+      "question-answering": 200,
+      "text-classification": 188,
+      "translation": 138,
+      "text-to-image": 60,
+      "image-to-text": 60,
+      "image-classification": 58,
+      "automatic-speech-recognition": 51,
+      "visual-question-answering": 50,
+      "text-to-speech": 49
+    },
+    "multilingual_count": 837
+  }
+}
