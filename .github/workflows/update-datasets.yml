@@ -1,16 +1,15 @@
 name: Update Japanese Datasets
 
 on:
-  # 매주 월요일 오전 9시 (KST 기준)에 실행
   schedule:
-    - cron: '0 0 * * 1'  # UTC 기준 일요일 자정 = KST 월요일 오전 9시
+    - cron: '0 0 * * 1'  # Every Monday at 00:00 UTC (09:00 KST)
 
-  # 수동 실행 가능
   workflow_dispatch:
 
 jobs:
   update-datasets:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
@@ -27,12 +26,40 @@ jobs:
           pip install huggingface-hub pandas tqdm
 
       - name: Collect Japanese datasets
+        timeout-minutes: 10
         run: |
-          python scripts/collect_japanese_datasets.py
+          echo "Starting dataset collection at $(date)"
+          python scripts/collect_japanese_datasets.py || {
+            EXIT_CODE=$?
+            echo "Error: Dataset collection failed with exit code $EXIT_CODE"
+            echo "Timestamp: $(date)"
+            exit $EXIT_CODE
+          }
+          echo "Collection completed at $(date)"
 
       - name: Generate trend analysis
+        timeout-minutes: 5
         run: |
-          python scripts/generate_trends.py
+          echo "Starting trend generation at $(date)"
+          python scripts/generate_trends.py || {
+            EXIT_CODE=$?
+            echo "Error: Trend generation failed with exit code $EXIT_CODE"
+            echo "Timestamp: $(date)"
+            exit $EXIT_CODE
+          }
+          echo "Trend generation completed at $(date)"
+
+      - name: Generate changelog
+        timeout-minutes: 5
+        run: |
+          echo "Starting changelog generation at $(date)"
+          python scripts/generate_changelog.py || {
+            EXIT_CODE=$?
+            echo "Error: Changelog generation failed with exit code $EXIT_CODE"
+            echo "Timestamp: $(date)"
+            exit $EXIT_CODE
+          }
+          echo "Changelog generation completed at $(date)"
 
       - name: Commit and push if changes
         run: |
@@ -40,10 +67,46 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add docs/data/*.json docs/data/*.csv docs/data/archive/*
 
-          # 변경사항이 있는지 확인
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "🤖 Weekly update: Japanese datasets - $(date +'%Y-%m-%d %H:%M')"
             git push
           fi
+
+      - name: Create workflow summary
+        if: always()
+        run: |
+          echo "# 📊 Japanese Datasets Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Workflow Run**: $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f "docs/data/japanese_datasets.json" ]; then
+            DATASET_COUNT=$(python -c "import json; data=json.load(open('docs/data/japanese_datasets.json')); print(data['total_count'])")
+            echo "✅ Total datasets: **$DATASET_COUNT**" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f "docs/data/statistics.json" ]; then
+            DOWNLOADS=$(python -c "import json; data=json.load(open('docs/data/statistics.json')); print(f\"{data['statistics']['total_downloads']:,}\")")
+            LIKES=$(python -c "import json; data=json.load(open('docs/data/statistics.json')); print(f\"{data['statistics']['total_likes']:,}\")")
+            MULTILINGUAL=$(python -c "import json; data=json.load(open('docs/data/statistics.json')); print(data['statistics']['multilingual_count'])")
+            echo "📥 Total downloads: **$DOWNLOADS**" >> $GITHUB_STEP_SUMMARY
+            echo "❤️ Total likes: **$LIKES**" >> $GITHUB_STEP_SUMMARY
+            echo "🌐 Multilingual datasets: **$MULTILINGUAL**" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f "docs/data/changelog.json" ]; then
+            NEW_COUNT=$(python -c "import json; data=json.load(open('docs/data/changelog.json')); print(len(data['new_datasets']))")
+            REMOVED_COUNT=$(python -c "import json; data=json.load(open('docs/data/changelog.json')); print(len(data['removed_datasets']))")
+            UPDATED_COUNT=$(python -c "import json; data=json.load(open('docs/data/changelog.json')); print(len(data['updated_datasets']))")
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "## 📈 Weekly Changes" >> $GITHUB_STEP_SUMMARY
+            echo "- 🆕 New: **$NEW_COUNT**" >> $GITHUB_STEP_SUMMARY
+            echo "- ❌ Removed: **$REMOVED_COUNT**" >> $GITHUB_STEP_SUMMARY
+            echo "- 📝 Updated: **$UPDATED_COUNT**" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "🔗 [View Catalog](https://songys.github.io/Japanese-HF-datasets-catalog/)" >> $GITHUB_STEP_SUMMARY
