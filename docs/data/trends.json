@@ -1,35 +1,40 @@
 {
-  "generated_at": "2025-10-13T13:16:07.507789",
+  "generated_at": "2025-10-28T23:28:43.991431",
   "trends": {
     "dates": [
       "20251012",
-      "20251013"
+      "20251013",
+      "20251028"
     ],
     "total_datasets": [
       1326,
-      1680
+      1680,
+      1696
     ],
     "total_downloads": [
       890871,
-      1452051
+      1452051,
+      1249894
     ],
     "total_likes": [
       10761,
-      13995
+      13995,
+      14164
     ],
     "multilingual_count": [
       585,
-      837
+      837,
+      845
     ],
-    "growth_rate": 26.7,
+    "growth_rate": 27.9,
     "latest_stats": {
-      "total_datasets": 1680,
-      "total_downloads": 1452051,
-      "total_likes": 13995,
+      "total_datasets": 1696,
+      "total_downloads": 1249894,
+      "total_likes": 14164,
       "top_authors": {
         "Aratako": 51,
         "hpprc": 39,
-        "llm-jp": 20,
+        "llm-jp": 21,
         "animetimm": 20,
         "deepghs": 18,
         "hotchpotch": 18,
@@ -39,21 +44,21 @@
         "Silviase": 15
       },
       "top_tasks": {
-        "text-generation": 384,
-        "question-answering": 200,
-        "text-classification": 188,
-        "translation": 138,
-        "text-to-image": 60,
-        "image-to-text": 60,
+        "text-generation": 392,
+        "question-answering": 201,
+        "text-classification": 190,
+        "translation": 141,
+        "text-to-image": 62,
+        "image-to-text": 61,
         "image-classification": 58,
         "automatic-speech-recognition": 51,
-        "visual-question-answering": 50,
-        "text-to-speech": 49
+        "text-to-speech": 50,
+        "visual-question-answering": 50
       },
-      "multilingual_count": 837
+      "multilingual_count": 845
     },
     "first_date": "20251012",
-    "last_date": "20251013",
-    "total_weeks": 2
+    "last_date": "20251028",
+    "total_weeks": 3
   }
 }
