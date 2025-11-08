@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-28T23:28:45.284330",
+  "generated_at": "2025-11-08T12:00:29.915143",
   "previous_date": "20251013",
   "current_date": "20251028",
   "previous_count": 1680,
@@ -47,6 +47,70 @@
         ],
         "size_categories": [
           "10K<n<100K"
+        ]
+      },
+      {
+        "id": "dev-trustedai/cm_dataset_small",
+        "author": "dev-trustedai",
+        "created_at": "2025-10-24 22:03:17+00:00",
+        "last_modified": "2025-10-24 22:19:51+00:00",
+        "downloads": 148,
+        "likes": 0,
+        "tags": [
+          "task_categories:feature-extraction",
+          "language:ja",
+          "license:apache-2.0",
+          "size_categories:n<1K",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\tJapanese TV Commercial Video Dataset\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nThis dataset contains Japanese TV commercial (CM) videos with hierarchical scene detection annotations.\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\n\nTotal Videos: 100\nTotal Duration: 39.5 minutes (2370 seconds)\nTotal Scenes: 2,320\nAverage Duration per Video: 23.7s\nAverage Scenes per Video: 23.2\n\n\n\t\n\t\t\n\t\tLanguages\n\t\n\nCommercial videos contain a mix of:\n\nJapanese (primary)\nEnglish (secondary)\n\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\ndataset/\n├──… See the full description on the dataset page: https://huggingface.co/datasets/dev-trustedai/cm_dataset_small.",
+        "url": "https://huggingface.co/datasets/dev-trustedai/cm_dataset_small",
+        "languages": [
+          "ja"
+        ],
+        "tasks": [
+          "feature-extraction"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "ronantakizawa/jfleg-japanese",
+        "author": "ronantakizawa",
+        "created_at": "2025-10-24 04:20:00+00:00",
+        "last_modified": "2025-10-28 03:24:16+00:00",
+        "downloads": 34,
+        "likes": 1,
+        "tags": [
+          "task_categories:text-generation",
+          "language:ja",
+          "license:cc-by-nc-sa-4.0",
+          "size_categories:1K<n<10K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "arxiv:1702.04066",
+          "region:us",
+          "grammatical-error-correction",
+          "japanese",
+          "gec",
+          "fluency",
+          "error-correction"
+        ],
+        "description": "\n\t\n\t\t\n\t\tJFLEG-JA: Japanese Fluency-Extended GUG\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nJFLEG-JA is a Japanese grammatical error correction (GEC) dataset inspired by the original JFLEG (JHU FLuency-Extended GUG) benchmark. It contains 1,335 Japanese sentences with grammatical errors, each accompanied by 4 human-quality corrections focusing on both grammaticality and fluency.\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\n\nLanguage: Japanese (ja)\nTask: Grammatical Error Correction (GEC)\nTotal Examples: 1,335\nValidation:… See the full description on the dataset page: https://huggingface.co/datasets/ronantakizawa/jfleg-japanese.",
+        "url": "https://huggingface.co/datasets/ronantakizawa/jfleg-japanese",
+        "languages": [
+          "ja"
+        ],
+        "tasks": [
+          "text-generation"
+        ],
+        "size_categories": [
+          "1K<n<10K"
         ]
       },
       {
@@ -203,6 +267,42 @@
         ]
       },
       {
+        "id": "li-lab/GlobMedX",
+        "author": "li-lab",
+        "created_at": "2025-09-05 13:38:53+00:00",
+        "last_modified": "2025-10-23 04:39:23+00:00",
+        "downloads": 18,
+        "likes": 0,
+        "tags": [
+          "task_categories:question-answering",
+          "language:ja",
+          "language:en",
+          "license:mit",
+          "size_categories:n<1K",
+          "format:json",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us",
+          "medical"
+        ],
+        "description": "This is the sample data for our ongoing project Advancing Multilingual Medical AI: GlobMed Benchmarking and Agentic Pipelines for Medical QA in Low-Resource Languages.\nThis project is kindly supported by the Google Research Scholar Program (2025, Natural Language Processing).\nRecipient: Irene Li, The University of Tokyo\n",
+        "url": "https://huggingface.co/datasets/li-lab/GlobMedX",
+        "languages": [
+          "ja",
+          "en"
+        ],
+        "tasks": [
+          "question-answering"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
         "id": "StellaVision/Japan-successful-bids",
         "author": "StellaVision",
         "created_at": "2025-10-17 14:22:07+00:00",
@@ -233,190 +333,6 @@
         ],
         "size_categories": [
           "n<1K"
-        ]
-      },
-      {
-        "id": "BabyLM-community/babylm-ja-subtitles",
-        "author": "BabyLM-community",
-        "created_at": "2025-07-11 16:12:32+00:00",
-        "last_modified": "2025-07-11 16:12:44+00:00",
-        "downloads": 8,
-        "likes": 0,
-        "tags": [
-          "task_categories:text-generation",
-          "language:ja",
-          "license:unknown",
-          "size_categories:1K<n<10K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us"
-        ],
-        "description": "\n\t\n\t\t\n\t\tbabylm-ja\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nThis dataset is part of the BabyLM multilingual collection.\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\n\nLanguage: ja\nScript: Latin\nCategory: subtitles\nSource: Unknown\nAge Estimate: n/a\nNumber of Documents: 1047\nTotal Tokens: 8742849\n\n\n\t\n\t\t\n\t\tTokens Per Category\n\t\n\n\nsubtitles: 8742849 tokens\n\n\n\t\n\t\t\n\t\tData Fields\n\t\n\n\ntext: The document text\ncategory: Type of content (e.g., child-directed-speech, educational, etc.)\ndata-source: Original source of the data… See the full description on the dataset page: https://huggingface.co/datasets/BabyLM-community/babylm-ja-subtitles.",
-        "url": "https://huggingface.co/datasets/BabyLM-community/babylm-ja-subtitles",
-        "languages": [
-          "ja"
-        ],
-        "tasks": [
-          "text-generation"
-        ],
-        "size_categories": [
-          "1K<n<10K"
-        ]
-      },
-      {
-        "id": "ronantakizawa/jfleg-japanese",
-        "author": "ronantakizawa",
-        "created_at": "2025-10-24 04:20:00+00:00",
-        "last_modified": "2025-10-28 03:24:16+00:00",
-        "downloads": 34,
-        "likes": 1,
-        "tags": [
-          "task_categories:text-generation",
-          "language:ja",
-          "license:cc-by-nc-sa-4.0",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "arxiv:1702.04066",
-          "region:us",
-          "grammatical-error-correction",
-          "japanese",
-          "gec",
-          "fluency",
-          "error-correction"
-        ],
-        "description": "\n\t\n\t\t\n\t\tJFLEG-JA: Japanese Fluency-Extended GUG\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nJFLEG-JA is a Japanese grammatical error correction (GEC) dataset inspired by the original JFLEG (JHU FLuency-Extended GUG) benchmark. It contains 1,335 Japanese sentences with grammatical errors, each accompanied by 4 human-quality corrections focusing on both grammaticality and fluency.\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\n\nLanguage: Japanese (ja)\nTask: Grammatical Error Correction (GEC)\nTotal Examples: 1,335\nValidation:… See the full description on the dataset page: https://huggingface.co/datasets/ronantakizawa/jfleg-japanese.",
-        "url": "https://huggingface.co/datasets/ronantakizawa/jfleg-japanese",
-        "languages": [
-          "ja"
-        ],
-        "tasks": [
-          "text-generation"
-        ],
-        "size_categories": [
-          "1K<n<10K"
-        ]
-      },
-      {
-        "id": "NandemoGHS/Galgame_Gemini_Captions",
-        "author": "NandemoGHS",
-        "created_at": "2025-10-23 05:34:23+00:00",
-        "last_modified": "2025-10-23 12:45:27+00:00",
-        "downloads": 159,
-        "likes": 5,
-        "tags": [
-          "task_categories:text-to-speech",
-          "task_categories:audio-classification",
-          "language:ja",
-          "license:cc-by-nc-4.0",
-          "region:us",
-          "not-for-all-audiences"
-        ],
-        "description": "\n\t\n\t\t\n\t\tGalgame_Gemini_Captions\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nThis dataset consists of audio data, their corresponding transcriptions, and detailed audio captions generated by Gemini 2.5 Pro. The data is a subset of the OOPPEENN/56697375616C4E6F76656C5F4461736574 dataset.\nIt is intended for training Text-to-Speech (TTS) models that can be controlled via descriptive metadata tags (e.g., emotion, speaker profile, style).\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nThe dataset is divided into two… See the full description on the dataset page: https://huggingface.co/datasets/NandemoGHS/Galgame_Gemini_Captions.",
-        "url": "https://huggingface.co/datasets/NandemoGHS/Galgame_Gemini_Captions",
-        "languages": [
-          "ja"
-        ],
-        "tasks": [
-          "text-to-speech",
-          "audio-classification"
-        ],
-        "size_categories": []
-      },
-      {
-        "id": "rileykim/multilingual-image-text-translation",
-        "author": "rileykim",
-        "created_at": "2025-10-25 10:08:15+00:00",
-        "last_modified": "2025-10-25 10:44:30+00:00",
-        "downloads": 33,
-        "likes": 0,
-        "tags": [
-          "task_categories:text-to-image",
-          "task_categories:image-to-text",
-          "task_categories:translation",
-          "language:en",
-          "language:id",
-          "language:ja",
-          "language:kk",
-          "language:ko",
-          "language:ru",
-          "language:ur",
-          "language:uz",
-          "language:vi",
-          "language:zh",
-          "license:mit",
-          "size_categories:1K<n<10K",
-          "format:parquet",
-          "modality:image",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us",
-          "multimodal",
-          "translation",
-          "multilingual",
-          "vision",
-          "flores200",
-          "mmt"
-        ],
-        "description": "\n\t\n\t\t\n\t\tMultilingual Image-Text Translation Dataset (MMT)\n\t\n\n\n\t\n\t\t\n\t\tOverview\n\t\n\nThis dataset contains Multilingual Multimodal Translation (MMT) pairs from FLORES-200, featuring image-text combinations across 11 languages. The dataset is designed for training and evaluating multimodal translation models that can translate text while considering visual context.\n\n\t\n\t\t\n\t\tMMT (Multilingual Multimodal Translation)\n\t\n\n\nMultilingual: 11 languages (en, id, ja, kk, ko, ru, ur, uz, vi, zh-cn, zh-tw)… See the full description on the dataset page: https://huggingface.co/datasets/rileykim/multilingual-image-text-translation.",
-        "url": "https://huggingface.co/datasets/rileykim/multilingual-image-text-translation",
-        "languages": [
-          "en",
-          "id",
-          "ja",
-          "kk",
-          "ko",
-          "ru",
-          "ur",
-          "uz",
-          "vi",
-          "zh"
-        ],
-        "tasks": [
-          "text-to-image",
-          "image-to-text",
-          "translation"
-        ],
-        "size_categories": [
-          "1K<n<10K"
-        ]
-      },
-      {
-        "id": "anonymous-1501/Open-Korean-Historical-Corpus",
-        "author": "anonymous-1501",
-        "created_at": "2025-10-22 20:40:08+00:00",
-        "last_modified": "2025-10-22 20:57:41+00:00",
-        "downloads": 67,
-        "likes": 0,
-        "tags": [
-          "language:ko",
-          "language:lzh",
-          "language:ja",
-          "license:cc-by-nc-4.0",
-          "size_categories:10M<n<100M",
-          "region:us"
-        ],
-        "description": "\n\t\n\t\t\n\t\tOpen Korean Historical Corpus\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nThe Open Korean Historical Corpus is a large-scale, openly licensed dataset created to address the lack of accessible data for Korean NLP and historical linguistics.\nIt contains 17.7 million documents (5.1 billion tokens) compiled from 19 distinct archives, spanning 1,300 years from the 7th century to 2025. The corpus is linguistically diverse, covering Korean (Middle, Early Modern, Modern, North), Classical Chinese, and… See the full description on the dataset page: https://huggingface.co/datasets/anonymous-1501/Open-Korean-Historical-Corpus.",
-        "url": "https://huggingface.co/datasets/anonymous-1501/Open-Korean-Historical-Corpus",
-        "languages": [
-          "ko",
-          "lzh",
-          "ja"
-        ],
-        "tasks": [],
-        "size_categories": [
-          "10M<n<100M"
         ]
       },
       {
@@ -621,6 +537,126 @@
         ]
       },
       {
+        "id": "speed/WAON",
+        "author": "speed",
+        "created_at": "2025-10-27 01:36:13+00:00",
+        "last_modified": "2025-10-28 03:04:24+00:00",
+        "downloads": 70,
+        "likes": 0,
+        "tags": [
+          "language:ja",
+          "license:apache-2.0",
+          "size_categories:100M<n<1B",
+          "format:parquet",
+          "modality:image",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:mlcroissant",
+          "library:polars",
+          "arxiv:2510.22276",
+          "region:us"
+        ],
+        "description": "\nWAON: Large-Scale and High-Quality Japanese Image-Text Pair Dataset for Vision-Language Models  \n\n\n  |\n  🤗 HuggingFace\n   |\n  📄 Paper\n   |\n  🧑‍💻 Code\n   |\n  \n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tIntroduction\n\t\n\nWAON is a Japanese (image, text) pair dataset containing approximately 155M examples, crawled from Common Crawl.\nIt is built from snapshots taken in 2025-18, 2025-08, 2024-51, 2024-42, 2024-33, and 2024-26.\nThe dataset is high-quality and diverse, constructed through a sophisticated data processing… See the full description on the dataset page: https://huggingface.co/datasets/speed/WAON.",
+        "url": "https://huggingface.co/datasets/speed/WAON",
+        "languages": [
+          "ja"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "100M<n<1B"
+        ]
+      },
+      {
+        "id": "hell0ks/claudy-chat-JK-1k",
+        "author": "hell0ks",
+        "created_at": "2025-10-25 16:08:36+00:00",
+        "last_modified": "2025-10-26 08:56:23+00:00",
+        "downloads": 20,
+        "likes": 0,
+        "tags": [
+          "language:ko",
+          "language:ja",
+          "size_categories:1K<n<10K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "description": "It's Japanese and Korean only version of raincandy-u/claudy-chat-CJK-5k, for experimenting multilingual bias of quantization.\n",
+        "url": "https://huggingface.co/datasets/hell0ks/claudy-chat-JK-1k",
+        "languages": [
+          "ko",
+          "ja"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "1K<n<10K"
+        ]
+      },
+      {
+        "id": "BabyLM-community/babylm-ja-subtitles",
+        "author": "BabyLM-community",
+        "created_at": "2025-07-11 16:12:32+00:00",
+        "last_modified": "2025-07-11 16:12:44+00:00",
+        "downloads": 8,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-generation",
+          "language:ja",
+          "license:unknown",
+          "size_categories:1K<n<10K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\tbabylm-ja\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nThis dataset is part of the BabyLM multilingual collection.\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\n\nLanguage: ja\nScript: Latin\nCategory: subtitles\nSource: Unknown\nAge Estimate: n/a\nNumber of Documents: 1047\nTotal Tokens: 8742849\n\n\n\t\n\t\t\n\t\tTokens Per Category\n\t\n\n\nsubtitles: 8742849 tokens\n\n\n\t\n\t\t\n\t\tData Fields\n\t\n\n\ntext: The document text\ncategory: Type of content (e.g., child-directed-speech, educational, etc.)\ndata-source: Original source of the data… See the full description on the dataset page: https://huggingface.co/datasets/BabyLM-community/babylm-ja-subtitles.",
+        "url": "https://huggingface.co/datasets/BabyLM-community/babylm-ja-subtitles",
+        "languages": [
+          "ja"
+        ],
+        "tasks": [
+          "text-generation"
+        ],
+        "size_categories": [
+          "1K<n<10K"
+        ]
+      },
+      {
+        "id": "NandemoGHS/Galgame_Gemini_Captions",
+        "author": "NandemoGHS",
+        "created_at": "2025-10-23 05:34:23+00:00",
+        "last_modified": "2025-10-23 12:45:27+00:00",
+        "downloads": 159,
+        "likes": 5,
+        "tags": [
+          "task_categories:text-to-speech",
+          "task_categories:audio-classification",
+          "language:ja",
+          "license:cc-by-nc-4.0",
+          "region:us",
+          "not-for-all-audiences"
+        ],
+        "description": "\n\t\n\t\t\n\t\tGalgame_Gemini_Captions\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nThis dataset consists of audio data, their corresponding transcriptions, and detailed audio captions generated by Gemini 2.5 Pro. The data is a subset of the OOPPEENN/56697375616C4E6F76656C5F4461736574 dataset.\nIt is intended for training Text-to-Speech (TTS) models that can be controlled via descriptive metadata tags (e.g., emotion, speaker profile, style).\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nThe dataset is divided into two… See the full description on the dataset page: https://huggingface.co/datasets/NandemoGHS/Galgame_Gemini_Captions.",
+        "url": "https://huggingface.co/datasets/NandemoGHS/Galgame_Gemini_Captions",
+        "languages": [
+          "ja"
+        ],
+        "tasks": [
+          "text-to-speech",
+          "audio-classification"
+        ],
+        "size_categories": []
+      },
+      {
         "id": "MasterZhou/Reasoning-Flow",
         "author": "MasterZhou",
         "created_at": "2025-10-09 22:28:32+00:00",
@@ -667,35 +703,122 @@
         ]
       },
       {
-        "id": "speed/WAON",
-        "author": "speed",
-        "created_at": "2025-10-27 01:36:13+00:00",
-        "last_modified": "2025-10-28 03:04:24+00:00",
-        "downloads": 70,
+        "id": "rileykim/multilingual-image-text-translation",
+        "author": "rileykim",
+        "created_at": "2025-10-25 10:08:15+00:00",
+        "last_modified": "2025-10-25 10:44:30+00:00",
+        "downloads": 33,
         "likes": 0,
         "tags": [
+          "task_categories:text-to-image",
+          "task_categories:image-to-text",
+          "task_categories:translation",
+          "language:en",
+          "language:id",
           "language:ja",
-          "license:apache-2.0",
-          "size_categories:100M<n<1B",
+          "language:kk",
+          "language:ko",
+          "language:ru",
+          "language:ur",
+          "language:uz",
+          "language:vi",
+          "language:zh",
+          "license:mit",
+          "size_categories:1K<n<10K",
           "format:parquet",
           "modality:image",
-          "modality:tabular",
           "modality:text",
           "library:datasets",
-          "library:dask",
+          "library:pandas",
           "library:mlcroissant",
           "library:polars",
-          "arxiv:2510.22276",
+          "region:us",
+          "multimodal",
+          "translation",
+          "multilingual",
+          "vision",
+          "flores200",
+          "mmt"
+        ],
+        "description": "\n\t\n\t\t\n\t\tMultilingual Image-Text Translation Dataset (MMT)\n\t\n\n\n\t\n\t\t\n\t\tOverview\n\t\n\nThis dataset contains Multilingual Multimodal Translation (MMT) pairs from FLORES-200, featuring image-text combinations across 11 languages. The dataset is designed for training and evaluating multimodal translation models that can translate text while considering visual context.\n\n\t\n\t\t\n\t\tMMT (Multilingual Multimodal Translation)\n\t\n\n\nMultilingual: 11 languages (en, id, ja, kk, ko, ru, ur, uz, vi, zh-cn, zh-tw)… See the full description on the dataset page: https://huggingface.co/datasets/rileykim/multilingual-image-text-translation.",
+        "url": "https://huggingface.co/datasets/rileykim/multilingual-image-text-translation",
+        "languages": [
+          "en",
+          "id",
+          "ja",
+          "kk",
+          "ko",
+          "ru",
+          "ur",
+          "uz",
+          "vi",
+          "zh"
+        ],
+        "tasks": [
+          "text-to-image",
+          "image-to-text",
+          "translation"
+        ],
+        "size_categories": [
+          "1K<n<10K"
+        ]
+      },
+      {
+        "id": "lamhieu/xllms_dialogue_greetings",
+        "author": "lamhieu",
+        "created_at": "2024-09-02 13:02:07+00:00",
+        "last_modified": "2025-10-19 10:28:13+00:00",
+        "downloads": 17,
+        "likes": 1,
+        "tags": [
+          "language:en",
+          "language:vi",
+          "language:ko",
+          "language:es",
+          "language:pt",
+          "language:zh",
+          "language:fr",
+          "language:it",
+          "language:de",
+          "language:ja",
+          "language:ru",
+          "language:pl",
+          "language:nl",
+          "language:hi",
+          "language:tr",
+          "language:id",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
           "region:us"
         ],
-        "description": "\nWAON: Large-Scale and High-Quality Japanese Image-Text Pair Dataset for Vision-Language Models  \n\n\n  |\n  🤗 HuggingFace\n   |\n  📄 Paper\n   |\n  🧑‍💻 Code\n   |\n  \n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tIntroduction\n\t\n\nWAON is a Japanese (image, text) pair dataset containing approximately 155M examples, crawled from Common Crawl.\nIt is built from snapshots taken in 2025-18, 2025-08, 2024-51, 2024-42, 2024-33, and 2024-26.\nThe dataset is high-quality and diverse, constructed through a sophisticated data processing… See the full description on the dataset page: https://huggingface.co/datasets/speed/WAON.",
-        "url": "https://huggingface.co/datasets/speed/WAON",
+        "description": "\n\t\n\t\t\n\t\t👋 xLLMs – Dialogue Grettings\n\t\n\nxLLMs – Dialogue Grettings is a multilingual greeting & small-talk dataset for building assistants that recognize salutations, respond politely, elicit intent, and pivot from chit-chat to helpful task support.It spans 41,320 dialogues across 16 languages (en, vi, ko, es, pt, zh, fr, it, de, ja, ru, pl, nl, hi, tr, id). Each sample is a short, natural exchange that begins with a greeting and evolves into a light informational micro-task.\n\nThis dataset… See the full description on the dataset page: https://huggingface.co/datasets/lamhieu/xllms_dialogue_greetings.",
+        "url": "https://huggingface.co/datasets/lamhieu/xllms_dialogue_greetings",
         "languages": [
-          "ja"
+          "en",
+          "vi",
+          "ko",
+          "es",
+          "pt",
+          "zh",
+          "fr",
+          "it",
+          "de",
+          "ja",
+          "ru",
+          "pl",
+          "nl",
+          "hi",
+          "tr",
+          "id"
         ],
         "tasks": [],
         "size_categories": [
-          "100M<n<1B"
+          "10K<n<100K"
         ]
       },
       {
@@ -772,98 +895,6 @@
         ]
       },
       {
-        "id": "hell0ks/claudy-chat-JK-1k",
-        "author": "hell0ks",
-        "created_at": "2025-10-25 16:08:36+00:00",
-        "last_modified": "2025-10-26 08:56:23+00:00",
-        "downloads": 20,
-        "likes": 0,
-        "tags": [
-          "language:ko",
-          "language:ja",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us"
-        ],
-        "description": "It's Japanese and Korean only version of raincandy-u/claudy-chat-CJK-5k, for experimenting multilingual bias of quantization.\n",
-        "url": "https://huggingface.co/datasets/hell0ks/claudy-chat-JK-1k",
-        "languages": [
-          "ko",
-          "ja"
-        ],
-        "tasks": [],
-        "size_categories": [
-          "1K<n<10K"
-        ]
-      },
-      {
-        "id": "li-lab/GlobMedX",
-        "author": "li-lab",
-        "created_at": "2025-09-05 13:38:53+00:00",
-        "last_modified": "2025-10-23 04:39:23+00:00",
-        "downloads": 18,
-        "likes": 0,
-        "tags": [
-          "task_categories:question-answering",
-          "language:ja",
-          "language:en",
-          "license:mit",
-          "size_categories:n<1K",
-          "format:json",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us",
-          "medical"
-        ],
-        "description": "This is the sample data for our ongoing project Advancing Multilingual Medical AI: GlobMed Benchmarking and Agentic Pipelines for Medical QA in Low-Resource Languages.\nThis project is kindly supported by the Google Research Scholar Program (2025, Natural Language Processing).\nRecipient: Irene Li, The University of Tokyo\n",
-        "url": "https://huggingface.co/datasets/li-lab/GlobMedX",
-        "languages": [
-          "ja",
-          "en"
-        ],
-        "tasks": [
-          "question-answering"
-        ],
-        "size_categories": [
-          "n<1K"
-        ]
-      },
-      {
-        "id": "dev-trustedai/cm_dataset_small",
-        "author": "dev-trustedai",
-        "created_at": "2025-10-24 22:03:17+00:00",
-        "last_modified": "2025-10-24 22:19:51+00:00",
-        "downloads": 148,
-        "likes": 0,
-        "tags": [
-          "task_categories:feature-extraction",
-          "language:ja",
-          "license:apache-2.0",
-          "size_categories:n<1K",
-          "region:us"
-        ],
-        "description": "\n\t\n\t\t\n\t\tJapanese TV Commercial Video Dataset\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nThis dataset contains Japanese TV commercial (CM) videos with hierarchical scene detection annotations.\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\n\nTotal Videos: 100\nTotal Duration: 39.5 minutes (2370 seconds)\nTotal Scenes: 2,320\nAverage Duration per Video: 23.7s\nAverage Scenes per Video: 23.2\n\n\n\t\n\t\t\n\t\tLanguages\n\t\n\nCommercial videos contain a mix of:\n\nJapanese (primary)\nEnglish (secondary)\n\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\ndataset/\n├──… See the full description on the dataset page: https://huggingface.co/datasets/dev-trustedai/cm_dataset_small.",
-        "url": "https://huggingface.co/datasets/dev-trustedai/cm_dataset_small",
-        "languages": [
-          "ja"
-        ],
-        "tasks": [
-          "feature-extraction"
-        ],
-        "size_categories": [
-          "n<1K"
-        ]
-      },
-      {
         "id": "llm-jp/WAON",
         "author": "llm-jp",
         "created_at": "2025-10-28 13:00:31+00:00",
@@ -888,61 +919,30 @@
         ]
       },
       {
-        "id": "lamhieu/xllms_dialogue_greetings",
-        "author": "lamhieu",
-        "created_at": "2024-09-02 13:02:07+00:00",
-        "last_modified": "2025-10-19 10:28:13+00:00",
-        "downloads": 17,
-        "likes": 1,
+        "id": "anonymous-1501/Open-Korean-Historical-Corpus",
+        "author": "anonymous-1501",
+        "created_at": "2025-10-22 20:40:08+00:00",
+        "last_modified": "2025-10-22 20:57:41+00:00",
+        "downloads": 67,
+        "likes": 0,
         "tags": [
-          "language:en",
-          "language:vi",
           "language:ko",
-          "language:es",
-          "language:pt",
-          "language:zh",
-          "language:fr",
-          "language:it",
-          "language:de",
+          "language:lzh",
           "language:ja",
-          "language:ru",
-          "language:pl",
-          "language:nl",
-          "language:hi",
-          "language:tr",
-          "language:id",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
+          "license:cc-by-nc-4.0",
+          "size_categories:10M<n<100M",
           "region:us"
         ],
-        "description": "\n\t\n\t\t\n\t\t👋 xLLMs – Dialogue Grettings\n\t\n\nxLLMs – Dialogue Grettings is a multilingual greeting & small-talk dataset for building assistants that recognize salutations, respond politely, elicit intent, and pivot from chit-chat to helpful task support.It spans 41,320 dialogues across 16 languages (en, vi, ko, es, pt, zh, fr, it, de, ja, ru, pl, nl, hi, tr, id). Each sample is a short, natural exchange that begins with a greeting and evolves into a light informational micro-task.\n\nThis dataset… See the full description on the dataset page: https://huggingface.co/datasets/lamhieu/xllms_dialogue_greetings.",
-        "url": "https://huggingface.co/datasets/lamhieu/xllms_dialogue_greetings",
+        "description": "\n\t\n\t\t\n\t\tOpen Korean Historical Corpus\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nThe Open Korean Historical Corpus is a large-scale, openly licensed dataset created to address the lack of accessible data for Korean NLP and historical linguistics.\nIt contains 17.7 million documents (5.1 billion tokens) compiled from 19 distinct archives, spanning 1,300 years from the 7th century to 2025. The corpus is linguistically diverse, covering Korean (Middle, Early Modern, Modern, North), Classical Chinese, and… See the full description on the dataset page: https://huggingface.co/datasets/anonymous-1501/Open-Korean-Historical-Corpus.",
+        "url": "https://huggingface.co/datasets/anonymous-1501/Open-Korean-Historical-Corpus",
         "languages": [
-          "en",
-          "vi",
           "ko",
-          "es",
-          "pt",
-          "zh",
-          "fr",
-          "it",
-          "de",
-          "ja",
-          "ru",
-          "pl",
-          "nl",
-          "hi",
-          "tr",
-          "id"
+          "lzh",
+          "ja"
         ],
         "tasks": [],
         "size_categories": [
-          "10K<n<100K"
+          "10M<n<100M"
         ]
       }
     ],
@@ -1029,6 +1029,48 @@
         ]
       },
       {
+        "id": "marcelone/language_learning_multilingual_public",
+        "author": "marcelone",
+        "created_at": "2025-10-06 00:27:03+00:00",
+        "last_modified": "2025-10-12 07:25:04+00:00",
+        "downloads": 97,
+        "likes": 0,
+        "tags": [
+          "task_categories:question-answering",
+          "language:en",
+          "language:ja",
+          "language:pt",
+          "language:ru",
+          "language:it",
+          "language:es",
+          "license:cc-by-4.0",
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "description": "Sources: Wikipedia, Wiktionary, Project Gutenberg, and synthetic data.\nProject Gutenberg texts:\n\nVerdadeiro método de estudar (Vol. I) by Luís António Verney (Portuguese)\nTradiciones peruanas by Ricardo Palma (Spanish)\nLa vita in Palermo cento e più anni fa, Vol. 1 by Giuseppe Pitrè (Italian)\nEngland, Picturesque and Descriptive: A Reminiscence of Foreign Travel by Joel Cook (English)\n\nSynthetic data generation: Models such as Gemma-3-4B-IT, Gemma-3-12B-IT, GLM-4-9B-0414… See the full description on the dataset page: https://huggingface.co/datasets/marcelone/language_learning_multilingual_public.",
+        "url": "https://huggingface.co/datasets/marcelone/language_learning_multilingual_public",
+        "languages": [
+          "en",
+          "ja",
+          "pt",
+          "ru",
+          "it",
+          "es"
+        ],
+        "tasks": [
+          "question-answering"
+        ],
+        "size_categories": [
+          "10K<n<100K"
+        ]
+      },
+      {
         "id": "Anna4242/arena-hard-v2-verifiers",
         "author": "Anna4242",
         "created_at": "2025-10-11 17:33:06+00:00",
@@ -1076,48 +1118,6 @@
         ],
         "size_categories": [
           "n<1K"
-        ]
-      },
-      {
-        "id": "marcelone/language_learning_multilingual_public",
-        "author": "marcelone",
-        "created_at": "2025-10-06 00:27:03+00:00",
-        "last_modified": "2025-10-12 07:25:04+00:00",
-        "downloads": 97,
-        "likes": 0,
-        "tags": [
-          "task_categories:question-answering",
-          "language:en",
-          "language:ja",
-          "language:pt",
-          "language:ru",
-          "language:it",
-          "language:es",
-          "license:cc-by-4.0",
-          "size_categories:10K<n<100K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us"
-        ],
-        "description": "Sources: Wikipedia, Wiktionary, Project Gutenberg, and synthetic data.\nProject Gutenberg texts:\n\nVerdadeiro método de estudar (Vol. I) by Luís António Verney (Portuguese)\nTradiciones peruanas by Ricardo Palma (Spanish)\nLa vita in Palermo cento e più anni fa, Vol. 1 by Giuseppe Pitrè (Italian)\nEngland, Picturesque and Descriptive: A Reminiscence of Foreign Travel by Joel Cook (English)\n\nSynthetic data generation: Models such as Gemma-3-4B-IT, Gemma-3-12B-IT, GLM-4-9B-0414… See the full description on the dataset page: https://huggingface.co/datasets/marcelone/language_learning_multilingual_public.",
-        "url": "https://huggingface.co/datasets/marcelone/language_learning_multilingual_public",
-        "languages": [
-          "en",
-          "ja",
-          "pt",
-          "ru",
-          "it",
-          "es"
-        ],
-        "tasks": [
-          "question-answering"
-        ],
-        "size_categories": [
-          "10K<n<100K"
         ]
       },
       {

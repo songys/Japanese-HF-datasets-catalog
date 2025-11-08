@@ -49,11 +49,13 @@ dataset_repo/
 *.tmp
 *.bak
 
-# Data files (keep only in docs/data/)
+# Data files (keep only in docs/data/ and archive snapshots)
 *.csv
-!docs/data/*.csv
 *.json
+!docs/data/*.csv
 !docs/data/*.json
+!docs/data/archive/*.csv
+!docs/data/archive/*.json
 
 # Logs
 *.log
