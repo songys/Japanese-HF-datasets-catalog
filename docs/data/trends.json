@@ -1,35 +1,64 @@
 {
-  "generated_at": "2025-11-08T12:00:01.105352",
+  "generated_at": "2025-11-08T12:06:15.537077",
   "trends": {
     "dates": [
       "20251013",
-      "20251028"
+      "20251028",
+      "20251108"
     ],
     "total_datasets": [
       1680,
-      1696
+      1696,
+      1700
     ],
     "total_downloads": [
       1452051,
-      1249894
+      1249894,
+      1278262
     ],
     "total_likes": [
       13995,
-      14164
+      14164,
+      14302
     ],
     "multilingual_count": [
       837,
-      845
+      845,
+      846
     ],
-    "growth_rate": 0.95,
+    "growth_rate": 1.19,
     "latest_stats": {
-      "total_datasets": 1696,
-      "total_downloads": 1249894,
-      "total_likes": 14164,
-      "multilingual_count": 845
+      "total_datasets": 1700,
+      "total_downloads": 1278262,
+      "total_likes": 14302,
+      "top_authors": {
+        "Aratako": 51,
+        "hpprc": 39,
+        "llm-jp": 21,
+        "hotchpotch": 19,
+        "deepghs": 18,
+        "ayousanz": 17,
+        "p1atdev": 16,
+        "HachiML": 15,
+        "Silviase": 15,
+        "kunishou": 14
+      },
+      "top_tasks": {
+        "text-generation": 397,
+        "question-answering": 204,
+        "text-classification": 194,
+        "translation": 143,
+        "image-to-text": 61,
+        "text-to-image": 56,
+        "automatic-speech-recognition": 53,
+        "text-to-speech": 52,
+        "visual-question-answering": 52,
+        "image-classification": 51
+      },
+      "multilingual_count": 846
     },
     "first_date": "20251013",
-    "last_date": "20251028",
-    "total_weeks": 2
+    "last_date": "20251108",
+    "total_weeks": 3
   }
 }
