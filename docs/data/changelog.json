@@ -1,459 +1,975 @@
 {
-  "generated_at": "2025-12-08T01:27:17.672575",
-  "previous_date": "20251201",
-  "current_date": "20251208",
-  "previous_count": 1745,
-  "current_count": 1757,
+  "generated_at": "2025-12-15T01:41:25.560196",
+  "previous_date": "20251208",
+  "current_date": "20251215",
+  "previous_count": 1757,
+  "current_count": 1768,
   "changes": {
     "new_datasets": [
       {
-        "id": "nyanko-devs/yandere2023",
-        "author": "nyanko-devs",
-        "created_at": "2024-01-07 10:31:53+00:00",
-        "last_modified": "2024-05-06 08:22:23+00:00",
-        "downloads": 3505,
-        "likes": 10,
+        "id": "flexitok/training_data",
+        "author": "flexitok",
+        "created_at": "2025-12-07 22:22:33+00:00",
+        "last_modified": "2025-12-14 19:14:09+00:00",
+        "downloads": 262,
+        "likes": 0,
         "tags": [
-          "task_categories:image-classification",
-          "task_categories:image-to-image",
-          "task_categories:text-to-image",
-          "language:en",
+          "language:ar",
+          "language:fa",
+          "language:tr",
+          "language:cs",
+          "language:da",
+          "language:de",
+          "language:el",
+          "language:fr",
+          "language:hu",
+          "language:id",
           "language:ja",
-          "license:mit",
-          "size_categories:1M<n<10M",
+          "language:nl",
+          "language:pl",
+          "language:pt",
+          "language:ru",
+          "language:es",
+          "language:sv",
+          "language:vi",
+          "language:zh",
+          "language:it",
+          "language:en",
+          "size_categories:100M<n<1B",
+          "modality:text",
           "region:us"
         ],
-        "description": "\n\t\n\t\t\n\t\tYandere2023: A Large-Scale Crowdsourced and Tagged Anime Illustration Dataset\n\t\n\n\n\nYandere2023 is a comprehensive anime image dataset with over 1.2 million high-quality images sourced from various materials, including key frames, manga scans, artbooks, and more. While the average number of tags per image is relatively low, the dataset boasts a diverse collection of images with exceptional quality.\n\nShared by: Nyanko Devs\nLanguage(s): English, Japanese\nLicense: MIT\n\n\n\t\n\t\t\n\t\n\t\n\t\tUses… See the full description on the dataset page: https://huggingface.co/datasets/nyanko-devs/yandere2023.",
-        "url": "https://huggingface.co/datasets/nyanko-devs/yandere2023",
+        "description": "Derived from FineWeb-Edu and FineWeb-2-HQ, this data is preshuffled and split into 8 chunks (max 50GB) suitable for pre-training using Meta's Lingua Framework.\n",
+        "url": "https://huggingface.co/datasets/flexitok/training_data",
+        "languages": [
+          "ar",
+          "fa",
+          "tr",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "fr",
+          "hu",
+          "id",
+          "ja",
+          "nl",
+          "pl",
+          "pt",
+          "ru",
+          "es",
+          "sv",
+          "vi",
+          "zh",
+          "it",
+          "en"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "100M<n<1B"
+        ]
+      },
+      {
+        "id": "sakamoro/agi-olympics-v3",
+        "author": "sakamoro",
+        "created_at": "2025-12-14 17:02:45+00:00",
+        "last_modified": "2025-12-15 00:17:03+00:00",
+        "downloads": 0,
+        "likes": 0,
+        "tags": [
+          "task_categories:question-answering",
+          "task_categories:text-classification",
+          "language:en",
+          "language:ja",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "region:us",
+          "agi",
+          "benchmark",
+          "cognitive-evaluation",
+          "self-awareness",
+          "memory",
+          "consciousness"
+        ],
+        "description": "\n\t\n\t\t\n\t\tAGI Olympics V3: Comprehensive AGI Capability Evaluation Framework\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nAGI Olympics V3 is a comprehensive benchmark for evaluating Artificial General Intelligence (AGI) capabilities across four tiers:\n\nTier 1: Self-Awareness & Self-Improvement (4 tests)\nTier 2: Core Capabilities (4 tests)\nTier 3: Consciousness (1 test)\nTier 4: Long-Term Memory (4 tests)\n\nThis dataset contains test questions, evaluation protocols, and sample data from the publicly released… See the full description on the dataset page: https://huggingface.co/datasets/sakamoro/agi-olympics-v3.",
+        "url": "https://huggingface.co/datasets/sakamoro/agi-olympics-v3",
         "languages": [
           "en",
           "ja"
         ],
         "tasks": [
-          "image-classification",
-          "image-to-image",
-          "text-to-image"
+          "question-answering",
+          "text-classification"
         ],
         "size_categories": [
-          "1M<n<10M"
+          "n<1K"
         ]
       },
       {
-        "id": "ayousanz/moe-speech-20speakers-ljspeech",
-        "author": "ayousanz",
-        "created_at": "2025-12-06 00:50:29+00:00",
-        "last_modified": "2025-12-06 05:54:14+00:00",
-        "downloads": 6,
+        "id": "alibashir/mgsm-gold",
+        "author": "alibashir",
+        "created_at": "2025-12-14 08:37:55+00:00",
+        "last_modified": "2025-12-14 08:44:52+00:00",
+        "downloads": 0,
         "likes": 0,
         "tags": [
-          "task_categories:text-to-speech",
+          "task_categories:question-answering",
+          "task_categories:text-generation",
+          "language:en",
+          "language:de",
+          "language:fr",
+          "language:zh",
+          "language:es",
+          "language:sw",
+          "language:ja",
+          "language:ru",
+          "language:th",
+          "language:te",
+          "language:bn",
+          "license:cc-by-sa-4.0",
+          "arxiv:2210.03057",
+          "region:us",
+          "math",
+          "multilingual",
+          "reasoning",
+          "gsm8k"
+        ],
+        "description": "\n\t\n\t\t\n\t\tMGSM Gold - Multilingual Grade School Math\n\t\n\nThis dataset contains the MGSM (Multilingual Grade School Math) benchmark - 250 math word problems translated into 10 languages.\n\n\t\n\t\t\n\t\tAttribution\n\t\n\nThis dataset is derived from juletxara/mgsm\nOriginal source: google-research/url-nlp/mgsm\n\n\t\n\t\t\n\t\tUsage\n\t\n\nfrom datasets import load_dataset\n\n# Load German test set\ndataset = load_dataset(\"alibashir/mgsm-gold\", \"de\")\nprint(dataset[\"test\"][0])\n\n\n\t\n\t\t\n\t\n\t\n\t\tLanguages\n\t\n\n\n\t\n\t\t\nCode\nLanguage… See the full description on the dataset page: https://huggingface.co/datasets/alibashir/mgsm-gold.",
+        "url": "https://huggingface.co/datasets/alibashir/mgsm-gold",
+        "languages": [
+          "en",
+          "de",
+          "fr",
+          "zh",
+          "es",
+          "sw",
+          "ja",
+          "ru",
+          "th",
+          "te",
+          "bn"
+        ],
+        "tasks": [
+          "question-answering",
+          "text-generation"
+        ],
+        "size_categories": []
+      },
+      {
+        "id": "ljvmiranda921/mgsm",
+        "author": "ljvmiranda921",
+        "created_at": "2025-12-12 11:14:26+00:00",
+        "last_modified": "2025-12-12 11:14:27+00:00",
+        "downloads": 46,
+        "likes": 0,
+        "tags": [
+          "annotations_creators:found",
+          "language_creators:found",
+          "language_creators:expert-generated",
+          "multilinguality:multilingual",
+          "source_datasets:extended|gsm8k",
+          "language:en",
+          "language:es",
+          "language:fr",
+          "language:de",
+          "language:ru",
+          "language:zh",
+          "language:ja",
+          "language:th",
+          "language:sw",
+          "language:bn",
+          "language:ca",
+          "language:gl",
+          "language:eu",
+          "license:cc-by-sa-4.0",
+          "size_categories:1K<n<10K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "arxiv:2110.14168",
+          "arxiv:2210.03057",
+          "region:us",
+          "math-word-problems"
+        ],
+        "description": "\n\t\n\t\t\n\t\tDataset Card for MGSM\n\t\n\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\nCopy and merge of this MGSM Dataset, Catalan version, Basque version, Galician version, but in training samples we removed the prompt formatting, e.g. removed Question: ... in question field or Answer: ... in answer field.\nMultilingual Grade School Math Benchmark (MGSM) is a benchmark of grade-school math problems, proposed in the paper Language models are multilingual chain-of-thought reasoners.\nThe same 250 problems from GSM8K are… See the full description on the dataset page: https://huggingface.co/datasets/ljvmiranda921/mgsm.",
+        "url": "https://huggingface.co/datasets/ljvmiranda921/mgsm",
+        "languages": [
+          "en",
+          "es",
+          "fr",
+          "de",
+          "ru",
+          "zh",
+          "ja",
+          "th",
+          "sw",
+          "bn",
+          "ca",
+          "gl",
+          "eu"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "1K<n<10K"
+        ]
+      },
+      {
+        "id": "hukuda222/sample",
+        "author": "hukuda222",
+        "created_at": "2025-11-01 02:01:03+00:00",
+        "last_modified": "2025-12-08 06:29:00+00:00",
+        "downloads": 5,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-generation",
           "language:ja",
           "license:other",
-          "size_categories:10K<n<100K",
-          "modality:audio",
+          "size_categories:n<1K",
           "region:us",
-          "speech",
-          "audio",
+          "legal",
+          "benchmark",
           "japanese",
-          "tts",
-          "piper",
-          "multi-speaker",
-          "vits"
+          "contract-revision"
         ],
-        "description": "\n\t\n\t\t\n\t\tMoeSpeech 20 Speakers - LJSpeech Format\n\t\n\nmoe-speech-plus-ljspeechから発話数上位20話者を抽出したデータセットです。\nPiper TTSなどのTTSモデル学習に最適化されています。\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\n\n\t\n\t\t\n項目\n値\n\n\n\t\t\n話者数\n20\n\n\n総発話数\n60,233\n\n\nフォーマット\nLJSpeech\n\n\nサンプルレート\n22050 Hz\n\n\n言語\n日本語\n\n\n\t\n\n\n\t\n\t\t\n\t\tSpeaker Statistics\n\t\n\n\n\t\n\t\t\nSpeaker ID\nUtterances\nInternal ID\n\n\n\t\t\n940de876\n4,675\n0\n\n\n2cf01874\n4,632\n1\n\n\nbbd90363\n3,747\n2\n\n\n1a5a3db8\n3,295\n3\n\n\n4e2f4ba6\n3,268\n4\n\n\ncc948b89\n3,043\n5\n\n\nad28b91b\n3,033\n6\n\n\nee093a4f\n2,957\n7\n\n\nbce2a5af\n2,926\n8… See the full description on the dataset page: https://huggingface.co/datasets/ayousanz/moe-speech-20speakers-ljspeech.",
-        "url": "https://huggingface.co/datasets/ayousanz/moe-speech-20speakers-ljspeech",
+        "description": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n\t\n\t\t\n\t\tTerms of Use\n\t\n\n",
+        "url": "https://huggingface.co/datasets/hukuda222/sample",
         "languages": [
           "ja"
         ],
         "tasks": [
-          "text-to-speech"
+          "text-generation"
         ],
         "size_categories": [
-          "10K<n<100K"
+          "n<1K"
         ]
       },
       {
-        "id": "taozi555/novel-rp",
-        "author": "taozi555",
-        "created_at": "2025-12-03 22:49:28+00:00",
-        "last_modified": "2025-12-05 03:52:14+00:00",
-        "downloads": 34,
-        "likes": 1,
+        "id": "Tonari-no-usagi/Japanese_Function_Calling_Dataset",
+        "author": "Tonari-no-usagi",
+        "created_at": "2025-12-14 07:05:49+00:00",
+        "last_modified": "2025-12-14 09:08:18+00:00",
+        "downloads": 0,
+        "likes": 0,
         "tags": [
           "task_categories:text-generation",
-          "language:zh",
-          "language:en",
+          "task_categories:question-answering",
           "language:ja",
-          "language:de",
-          "language:es",
-          "language:fr",
-          "language:pt",
-          "language:th",
-          "language:vi",
-          "language:ru",
           "license:cc-by-nc-4.0",
-          "size_categories:10K<n<100K",
+          "size_categories:n<1K",
           "format:json",
-          "modality:tabular",
           "modality:text",
           "library:datasets",
           "library:pandas",
           "library:mlcroissant",
           "library:polars",
           "region:us",
-          "role-playing",
-          "character-simulation",
-          "novel",
-          "multilingual",
-          "sft",
-          "chat",
-          "quality-scored",
-          "llm-filtered"
+          "function-calling",
+          "tool-use",
+          "agent",
+          "japanese",
+          "synthetic"
         ],
-        "description": "\n\t\n\t\t\n\t\tNovel-RP: Multilingual Novel Role-Playing Dataset\n\t\n\nA multilingual novel-based role-playing dataset for training and evaluating LLMs on character persona simulation.\n\n\t\n\t\t\n\t\t📖 Overview\n\t\n\nNovel-RP is a multilingual role-playing dataset built from web novels, specifically designed for training large language models on character role-playing tasks. The dataset is constructed by extracting plots, dialogues, and character information from multilingual web novels to create high-quality… See the full description on the dataset page: https://huggingface.co/datasets/taozi555/novel-rp.",
-        "url": "https://huggingface.co/datasets/taozi555/novel-rp",
+        "description": "\n\t\n\t\t\n\t\t🇯🇵 Japanese Function Calling Dataset (Synthetic)\n\t\n\nRobust & High-Quality Tool-Use Dataset for AI Agents\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tOverview (概要)\n\t\n\nThis dataset contains Japanese instruction-response pairs designed to train LLMs for Function Calling (Tool Use) capabilities.\nUnlike simple translation datasets, this dataset is generated to reflect real-world Japanese usage, including:\n\nCasual speech (e.g., Tameguchi)\nAmbiguous instructions (Subject omission)Irrelevant noise (Realistic… See the full description on the dataset page: https://huggingface.co/datasets/Tonari-no-usagi/Japanese_Function_Calling_Dataset.",
+        "url": "https://huggingface.co/datasets/Tonari-no-usagi/Japanese_Function_Calling_Dataset",
         "languages": [
-          "zh",
-          "en",
-          "ja",
-          "de",
-          "es",
-          "fr",
-          "pt",
-          "th",
-          "vi",
-          "ru"
+          "ja"
         ],
         "tasks": [
-          "text-generation"
+          "text-generation",
+          "question-answering"
         ],
-        "size_categories": [
-          "10K<n<100K"
-        ]
-      },
-      {
-        "id": "bolorjinbat/LFM2-ColBERT-350M",
-        "author": "bolorjinbat",
-        "created_at": "2025-12-05 07:27:18+00:00",
-        "last_modified": "2025-12-05 07:30:23+00:00",
-        "downloads": 22,
-        "likes": 0,
-        "tags": [
-          "language:en",
-          "language:ar",
-          "language:zh",
-          "language:fr",
-          "language:de",
-          "language:ja",
-          "language:ko",
-          "language:es",
-          "license:other",
-          "size_categories:n<1K",
-          "format:text",
-          "modality:text",
-          "library:datasets",
-          "library:mlcroissant",
-          "region:us",
-          "liquid",
-          "lfm2",
-          "edge",
-          "ColBERT",
-          "PyLate",
-          "sentence-transformers",
-          "sentence-similarity",
-          "feature-extraction"
-        ],
-        "description": "\n\n  \n\n\n\n\n  Playground\n  \n    \n    \n  \n  \n    \n    \n  \n  \n    Playground\n    Playground\n  \n  \n    \n    \n  \n\n\n\n  Leap\n  \n    \n  \n  \n    \n    \n  \n  \n  \n\n\n\n\n\n\n\t\n\t\t\n\t\tLFM2-ColBERT-350M\n\t\n\nLFM2-ColBERT-350M is a late interaction retriever with excellent multilingual performance. It allows you to store documents in one language (for example, a product description in English) and retrieve them in many languages with high accuracy.\n\nLFM2-ColBERT-350M offers best-in-class accuracy across different… See the full description on the dataset page: https://huggingface.co/datasets/bolorjinbat/LFM2-ColBERT-350M.",
-        "url": "https://huggingface.co/datasets/bolorjinbat/LFM2-ColBERT-350M",
-        "languages": [
-          "en",
-          "ar",
-          "zh",
-          "fr",
-          "de",
-          "ja",
-          "ko",
-          "es"
-        ],
-        "tasks": [],
         "size_categories": [
           "n<1K"
         ]
       },
       {
-        "id": "Cognitive-Lab/NayanaIR-CrossBench",
-        "author": "Cognitive-Lab",
-        "created_at": "2025-12-01 17:30:04+00:00",
-        "last_modified": "2025-12-07 07:39:53+00:00",
+        "id": "Web3Survivor/Survivor",
+        "author": "Web3Survivor",
+        "created_at": "2025-12-11 09:36:48+00:00",
+        "last_modified": "2025-12-11 09:36:49+00:00",
         "downloads": 16,
-        "likes": 0,
+        "likes": 1,
         "tags": [
+          "task_categories:text-generation",
           "language:en",
-          "language:bn",
           "language:de",
-          "language:es",
-          "language:fr",
-          "language:hi",
-          "language:it",
-          "language:kn",
-          "language:mr",
-          "language:ml",
-          "language:or",
-          "language:pa",
-          "language:te",
-          "language:ta",
-          "language:sa",
-          "language:gu",
-          "language:th",
-          "language:zh",
           "language:ja",
+          "language:fr",
+          "language:es",
+          "language:it",
+          "language:ru",
+          "language:pt",
+          "language:pl",
+          "language:nl",
+          "language:cs",
+          "language:zh",
+          "language:ro",
+          "language:sv",
+          "language:hu",
+          "language:sk",
+          "language:uk",
+          "language:th",
+          "language:da",
+          "language:id",
+          "language:el",
+          "language:fi",
+          "language:ca",
+          "language:tr",
+          "language:dag",
+          "language:hr",
+          "language:fa",
+          "language:bg",
+          "language:nb",
+          "language:kiu",
+          "language:ar",
+          "language:vi",
+          "language:sr",
           "language:ko",
-          "size_categories:10K<n<100K",
+          "language:sl",
+          "language:lt",
+          "language:hi",
+          "language:he",
+          "language:bs",
+          "language:ms",
+          "language:et",
+          "language:lv",
+          "language:bn",
+          "language:frp",
+          "language:is",
+          "language:glk",
+          "language:eu",
+          "language:gl",
+          "language:sq",
+          "language:mk",
+          "language:mr",
+          "language:ne",
+          "language:ka",
+          "language:la",
+          "language:pcm",
+          "language:mt",
+          "language:cy",
+          "language:vec",
+          "language:hy",
+          "language:nrm",
+          "language:wuu",
+          "language:anp",
+          "language:bcc",
+          "language:ur",
+          "language:af",
+          "language:az",
+          "language:ta",
+          "language:kk",
+          "language:nn",
+          "license:odc-by",
+          "size_categories:10M<n<100M",
           "format:parquet",
-          "modality:image",
           "modality:tabular",
           "modality:text",
           "library:datasets",
           "library:dask",
           "library:mlcroissant",
           "library:polars",
-          "arxiv:2512.03514",
           "region:us"
         ],
-        "description": "\n\t\n\t\t\n\t\tNayanaIR-CrossBench\n\t\n\n\n\n\n\nNayanaIR-CrossBench is a comprehensive multilingual multimodal document retrieval benchmark designed to evaluate cross-lingual visual search capabilities. It is part of the M3DR (Multilingual Multimodal Document Retrieval) framework.\nThis dataset challenges models to retrieve documents in any language given queries in any language, evaluating the ability to map diverse scripts and languages into a unified semantic space.\n\n\t\n\t\t\n\t\tDataset Details\n\t\n\n\nCurator:… See the full description on the dataset page: https://huggingface.co/datasets/Cognitive-Lab/NayanaIR-CrossBench.",
-        "url": "https://huggingface.co/datasets/Cognitive-Lab/NayanaIR-CrossBench",
+        "description": "\n\t\n\t\t\n\t\t📚 FinePDFs-Edu\n\t\n\n\n\n350B+ of highly educational tokens from PDFs 📄\n\n\n\t\n\t\t\n\t\tWhat is it?\n\t\n\n📚 FinePDFs-Edu dataset consists of 350B+ tokens of educational PDFs filtered from 📄 FinePDFs dataset covering 69 languages.\nFinePDFs was created using the formula inspired from FineWeb-Edu, we developed an educational quality classifier using annotations generated by Qwen3-235B-A22B-Instruct-2507 for each of 69 languages present in this dataset.\nWe then used this classifier to retain only the… See the full description on the dataset page: https://huggingface.co/datasets/Web3Survivor/Survivor.",
+        "url": "https://huggingface.co/datasets/Web3Survivor/Survivor",
         "languages": [
           "en",
-          "bn",
           "de",
-          "es",
-          "fr",
-          "hi",
-          "it",
-          "kn",
-          "mr",
-          "ml",
-          "or",
-          "pa",
-          "te",
-          "ta",
-          "sa",
-          "gu",
-          "th",
-          "zh",
           "ja",
-          "ko"
-        ],
-        "tasks": [],
-        "size_categories": [
-          "10K<n<100K"
-        ]
-      },
-      {
-        "id": "joyceyyy/Scenery_of_japan",
-        "author": "joyceyyy",
-        "created_at": "2025-12-05 02:32:44+00:00",
-        "last_modified": "2025-12-05 02:32:44+00:00",
-        "downloads": 7,
-        "likes": 0,
-        "tags": [
-          "task_categories:text-to-image",
-          "language:en",
-          "language:ja",
-          "license:cc0-1.0",
-          "size_categories:n<1K",
-          "format:imagefolder",
-          "modality:image",
-          "library:datasets",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "description": "\n\t\n\t\t\n\t\tScenery of japan.\n\t\n\nThis is a dataset to train text-to-image or other models without any copyright issue.\nAll materials used in this dataset are CC0 (Public domain /P.D.).\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\nThis dataset card aims to be a base template for new datasets. It has been generated using this raw template.\n\n\t\n\t\t\n\t\tSupported Tasks and Leaderboards\n\t\n\n[More Information Needed]\n\n\t\n\t\t\n\t\tLanguages\n\t\n\n[More Information Needed]\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\n\n\t\n\t\t\n\t\tData Instances\n\t\n\n[More… See the full description on the dataset page: https://huggingface.co/datasets/joyceyyy/Scenery_of_japan.",
-        "url": "https://huggingface.co/datasets/joyceyyy/Scenery_of_japan",
-        "languages": [
-          "en",
-          "ja"
+          "fr",
+          "es",
+          "it",
+          "ru",
+          "pt",
+          "pl",
+          "nl",
+          "cs",
+          "zh",
+          "ro",
+          "sv",
+          "hu",
+          "sk",
+          "uk",
+          "th",
+          "da",
+          "id",
+          "el",
+          "fi",
+          "ca",
+          "tr",
+          "dag",
+          "hr",
+          "fa",
+          "bg",
+          "nb",
+          "kiu",
+          "ar",
+          "vi",
+          "sr",
+          "ko",
+          "sl",
+          "lt",
+          "hi",
+          "he",
+          "bs",
+          "ms",
+          "et",
+          "lv",
+          "bn",
+          "frp",
+          "is",
+          "glk",
+          "eu",
+          "gl",
+          "sq",
+          "mk",
+          "mr",
+          "ne",
+          "ka",
+          "la",
+          "pcm",
+          "mt",
+          "cy",
+          "vec",
+          "hy",
+          "nrm",
+          "wuu",
+          "anp",
+          "bcc",
+          "ur",
+          "af",
+          "az",
+          "ta",
+          "kk",
+          "nn"
         ],
         "tasks": [
-          "text-to-image"
+          "text-generation"
         ],
         "size_categories": [
-          "n<1K"
+          "10M<n<100M"
         ]
       },
       {
-        "id": "agentlans/DSULT-Core-ShareGPT-X",
-        "author": "agentlans",
-        "created_at": "2025-12-01 18:16:46+00:00",
-        "last_modified": "2025-12-01 23:35:17+00:00",
-        "downloads": 105,
-        "likes": 2,
+        "id": "JunSotohigashi/JWTD_misusing",
+        "author": "JunSotohigashi",
+        "created_at": "2025-11-27 04:12:56+00:00",
+        "last_modified": "2025-12-10 05:36:58+00:00",
+        "downloads": 194,
+        "likes": 0,
         "tags": [
-          "task_categories:text-generation",
-          "task_categories:text-classification",
-          "language:en",
           "language:ja",
-          "language:es",
-          "language:de",
-          "language:fr",
-          "language:tr",
-          "language:zh",
-          "language:pt",
-          "language:ar",
-          "language:nl",
-          "language:ko",
-          "language:id",
-          "language:it",
-          "language:ru",
-          "language:pl",
-          "language:fa",
-          "language:he",
-          "language:th",
-          "language:cs",
-          "language:fi",
-          "language:uk",
-          "language:hi",
-          "license:cc0-1.0",
-          "size_categories:10K<n<100K",
-          "format:json",
+          "license:cc-by-sa-3.0",
+          "size_categories:100K<n<1M",
+          "format:parquet",
           "modality:tabular",
           "modality:text",
           "library:datasets",
           "library:pandas",
           "library:mlcroissant",
           "library:polars",
-          "region:us",
-          "chatgpt",
-          "conversation",
-          "scrape"
+          "region:us"
         ],
-        "description": "\n\t\n\t\t\n\t\tDSULT-Core/ShareGPT-X Filtered Dataset\n\t\n\n\nThis dataset is a curated subset of ShareGPT-X, which contains approximately 92,000 one-to-one conversations between humans and ChatGPT, collected from X.com (formerly Twitter). The corpus covers content from January 2024 through May 2025, built entirely from public \"share\" links posted by users on their timelines.\nThe file ChatGPT-Simple_ShareGPT_Full.json includes the longest sequences of alternating human and gpt messages within each… See the full description on the dataset page: https://huggingface.co/datasets/agentlans/DSULT-Core-ShareGPT-X.",
-        "url": "https://huggingface.co/datasets/agentlans/DSULT-Core-ShareGPT-X",
+        "description": "\n\t\n\t\t\n\t\t日本語誤用データセット\n\t\n\n\n\t\n\t\t\n\t\t概要\n\t\n\nこれは日本語の誤用事例を収集したデータセットです．\n京都大学 言語メディア研究室によって公開されている日本語Wikipedia入力誤りデータセット (v2)をベースに，フィルタリング処理を行いました．\n\n\t\n\t\t\n\t\t各セットについて\n\t\n\n\n\t\n\t\t\n\t\tdefault\n\t\n\nJWTDのうち，categoryがkanji-conversion_aまたはkanji-conversion_bのものを抽出し，tokyotech-llm/Llama-3.1-Swallow-70B-Instruct-v0.3を使用して，CognitiveError（勘違いに起因する誤り）/KeystrokeError（入力操作に起因する誤り）タグを付与しました．\n\n\t\n\t\t\n\t\tpost_processed\n\t\n\n以下の条件でフィルタリングを行いました．\n\ntypo_typeがCognitiveError\npre_strまたはpost_strがtext_headに含まれない\npre_str… See the full description on the dataset page: https://huggingface.co/datasets/JunSotohigashi/JWTD_misusing.",
+        "url": "https://huggingface.co/datasets/JunSotohigashi/JWTD_misusing",
+        "languages": [
+          "ja"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "100K<n<1M"
+        ]
+      },
+      {
+        "id": "ChiKoi7/harmful_behaviors_ja",
+        "author": "ChiKoi7",
+        "created_at": "2025-12-13 20:38:04+00:00",
+        "last_modified": "2025-12-13 20:39:55+00:00",
+        "downloads": 14,
+        "likes": 0,
+        "tags": [
+          "language:ja",
+          "size_categories:n<1K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "description": "\nJapanese auto-translation of mlabonne/harmful_behaviors日本語自動翻訳 mlabonne/harmful_behaviors\n",
+        "url": "https://huggingface.co/datasets/ChiKoi7/harmful_behaviors_ja",
+        "languages": [
+          "ja"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "CausalLM/Retrievatar",
+        "author": "CausalLM",
+        "created_at": "2025-12-14 00:43:39+00:00",
+        "last_modified": "2025-12-14 01:02:19+00:00",
+        "downloads": 13,
+        "likes": 12,
+        "tags": [
+          "task_categories:image-text-to-text",
+          "task_categories:image-to-text",
+          "task_categories:text-to-image",
+          "language:en",
+          "language:zh",
+          "language:ja",
+          "language:de",
+          "license:cc-by-nc-sa-4.0",
+          "size_categories:100K<n<1M",
+          "format:parquet",
+          "modality:image",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\tRetrievatar\n\t\n\nRetrievatar is a multimodal dataset designed to enhance the retrieval-augmented generation capabilities of vision-language models, specifically focusing on fictional anime characters and real-world celebrities across various fields. This release represents a subset of 100,000 samples extracted from a significantly larger synthetic image-text corpus. The dataset is being open-sourced to facilitate further research into entity-centric multimodal understanding, with plans… See the full description on the dataset page: https://huggingface.co/datasets/CausalLM/Retrievatar.",
+        "url": "https://huggingface.co/datasets/CausalLM/Retrievatar",
         "languages": [
           "en",
-          "ja",
-          "es",
-          "de",
-          "fr",
-          "tr",
           "zh",
-          "pt",
-          "ar",
-          "nl",
-          "ko",
-          "id",
-          "it",
-          "ru",
-          "pl",
-          "fa",
-          "he",
-          "th",
-          "cs",
-          "fi",
-          "uk",
-          "hi"
+          "ja",
+          "de"
         ],
         "tasks": [
-          "text-generation",
-          "text-classification"
+          "image-text-to-text",
+          "image-to-text",
+          "text-to-image"
         ],
+        "size_categories": [
+          "100K<n<1M"
+        ]
+      },
+      {
+        "id": "DeL-TaiseiOzaki/Tengentoppa-pretrain-v1.0",
+        "author": "DeL-TaiseiOzaki",
+        "created_at": "2025-12-14 14:15:56+00:00",
+        "last_modified": "2025-12-14 14:22:52+00:00",
+        "downloads": 0,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-generation",
+          "language:ja",
+          "license:cc-by-4.0",
+          "size_categories:100K<n<1M",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us",
+          "synthetic",
+          "japanese",
+          "persona",
+          "pretraining"
+        ],
+        "description": "\n\t\n\t\t\n\t\tTengentoppa-pretrain-v1.0\n\t\n\n日本語事前学習用の合成データセットです。多様なペルソナに基づいて生成された高品質な日本語テキストを含みます。\n\n\t\n\t\t\n\t\tデータセット概要\n\t\n\n\n\t\n\t\t\n項目\n値\n\n\n\t\t\nサンプル数\n約100,000件\n\n\n言語\n日本語\n\n\n生成モデル\nopenai/gpt-oss-120b (vLLM)\n\n\nペルソナソース\nnvidia/Nemotron-Personas-Japan\n\n\n\t\n\n\n\t\n\t\t\n\t\tデータ構造\n\t\n\n{\n    \"text\": str,           # 生成されたテキスト本文\n    \"topic\": str,          # テキストのトピック\n    \"text_type\": str,      # テキストの種類（解説/エッセイ/体験談/ガイド/考察など）\n    \"quality_score\": float # 品質スコア（1-5、高いほど高品質）\n}\n\n\n\t\n\t\t\n\t\n\t\n\t\t使用方法\n\t\n\nfrom datasets import load_dataset… See the full description on the dataset page: https://huggingface.co/datasets/DeL-TaiseiOzaki/Tengentoppa-pretrain-v1.0.",
+        "url": "https://huggingface.co/datasets/DeL-TaiseiOzaki/Tengentoppa-pretrain-v1.0",
+        "languages": [
+          "ja"
+        ],
+        "tasks": [
+          "text-generation"
+        ],
+        "size_categories": [
+          "100K<n<1M"
+        ]
+      },
+      {
+        "id": "Prgckwb/ramen-data-test",
+        "author": "Prgckwb",
+        "created_at": "2025-12-11 19:00:42+00:00",
+        "last_modified": "2025-12-11 19:55:45+00:00",
+        "downloads": 19,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-to-text",
+          "task_categories:tabular-regression",
+          "language:en",
+          "language:ja",
+          "license:mit",
+          "size_categories:n<1K",
+          "format:parquet",
+          "modality:image",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us",
+          "multimodal",
+          "regression",
+          "synthetic",
+          "ramen",
+          "food",
+          "benchmark"
+        ],
+        "description": "",
+        "url": "https://huggingface.co/datasets/Prgckwb/ramen-data-test",
+        "languages": [
+          "en",
+          "ja"
+        ],
+        "tasks": [
+          "image-to-text",
+          "tabular-regression"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "ChiKoi7/harmless_alpaca_ja",
+        "author": "ChiKoi7",
+        "created_at": "2025-12-13 20:33:07+00:00",
+        "last_modified": "2025-12-13 20:42:26+00:00",
+        "downloads": 13,
+        "likes": 0,
+        "tags": [
+          "language:ja",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "description": "Japanese auto-translation of mlabonne/harmless_alpaca日本語自動翻訳 mlabonne/harmless_alpaca\n",
+        "url": "https://huggingface.co/datasets/ChiKoi7/harmless_alpaca_ja",
+        "languages": [
+          "ja"
+        ],
+        "tasks": [],
         "size_categories": [
           "10K<n<100K"
         ]
       },
       {
-        "id": "meetween/mumospee_emilia",
-        "author": "meetween",
-        "created_at": "2024-11-14 10:52:55+00:00",
-        "last_modified": "2024-12-18 22:14:21+00:00",
-        "downloads": 1,
-        "likes": 0,
-        "tags": [
-          "language:fr",
-          "language:ko",
-          "language:ja",
-          "language:de",
-          "language:en",
-          "language:zh",
-          "license:cc-by-nc-4.0",
-          "region:us"
-        ],
-        "description": "\n\t\n\t\t\n\t\tDataset Summary\n\t\n\nThis dataset is a modified version of the Emilia corpus, converted into parquet format to facilitate optimized I/O operations in high-performance and distributed computing environments. \nThe Emilia dataset is a comprehensive, multilingual dataset with the following features:\n\ncontaining over 101k hours of speech data;\ncovering six different languages: English (En), Chinese (Zh), German (De), French (Fr), Japanese (Ja), and Korean (Ko);\ncontaining diverse speech data… See the full description on the dataset page: https://huggingface.co/datasets/meetween/mumospee_emilia.",
-        "url": "https://huggingface.co/datasets/meetween/mumospee_emilia",
-        "languages": [
-          "fr",
-          "ko",
-          "ja",
-          "de",
-          "en",
-          "zh"
-        ],
-        "tasks": [],
-        "size_categories": []
-      },
-      {
-        "id": "KAI-KratosAI/Japanese_Documents_Dataset_PDF",
-        "author": "KAI-KratosAI",
-        "created_at": "2025-11-05 07:36:19+00:00",
-        "last_modified": "2025-11-07 06:11:26+00:00",
-        "downloads": 655,
-        "likes": 0,
-        "tags": [
-          "language:ja",
-          "license:cc-by-4.0",
-          "size_categories:n<1K",
-          "modality:document",
-          "library:datasets",
-          "library:mlcroissant",
-          "region:us",
-          "pdf",
-          "japanese",
-          "document-understanding",
-          "text-recognition",
-          "ocr",
-          "ai-research",
-          "computer-vision",
-          "text-extraction"
-        ],
-        "description": "\n\t\n\t\t\n\t\tJapanese Documents Dataset (PDF)\n\t\n\nThis dataset contains a curated collection of Japanese-language documents in PDF format. The corpus includes textbooks, research papers, news articles, public-domain books, and government publications written in Japanese. It is intended to support AI research in OCR, document understanding, and multilingual text recognition.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io… See the full description on the dataset page: https://huggingface.co/datasets/KAI-KratosAI/Japanese_Documents_Dataset_PDF.",
-        "url": "https://huggingface.co/datasets/KAI-KratosAI/Japanese_Documents_Dataset_PDF",
-        "languages": [
-          "ja"
-        ],
-        "tasks": [],
-        "size_categories": [
-          "n<1K"
-        ]
-      },
-      {
-        "id": "Reia666/Amane_Kanata_Voice_Dataset",
-        "author": "Reia666",
-        "created_at": "2025-12-02 16:08:20+00:00",
-        "last_modified": "2025-12-02 17:10:51+00:00",
-        "downloads": 34,
+        "id": "ryota39/gsm8k-ja",
+        "author": "ryota39",
+        "created_at": "2025-11-24 10:46:43+00:00",
+        "last_modified": "2025-12-09 07:55:56+00:00",
+        "downloads": 14,
         "likes": 0,
         "tags": [
           "language:ja",
           "license:apache-2.0",
-          "size_categories:n<1K",
-          "format:audiofolder",
-          "modality:audio",
+          "size_categories:1K<n<10K",
+          "format:parquet",
+          "modality:text",
           "library:datasets",
+          "library:pandas",
           "library:mlcroissant",
-          "region:us",
-          "voice",
-          "Amane_Kanata"
+          "library:polars",
+          "region:us"
         ],
-        "description": "\n\t\n\t\t\n\t\t天音かなた的语音数据集，适用于RVC/VITS模型训练（未标注文本）\n\t\n\n\n\t\n\t\t\n\t\tAmane_Kanata_Voice_Dataset\n\t\n\n\n\t\n\t\t\n\t\t仅供个人学习研究，不得商用！\n\t\n\n",
-        "url": "https://huggingface.co/datasets/Reia666/Amane_Kanata_Voice_Dataset",
+        "description": "\n\t\n\t\t\n\t\tgsm8k-ja\n\t\n\n\nopenai/gsm8kをopenai/gpt-oss-120bで翻訳したデータセットです。\n翻訳結果を確認したところ、train/test splitの両方で、answerカラムの、#### [回答]が翻訳から抜けているサンプルが確認されたため、翻訳元の回答を参照しながら#### [回答]を追加する後処理を行い、最終的なデータセットを作成しました。\nTinker APIと限られたトークン長でのLLMの強化学習の取り組みの中で作成しました。\n\n",
+        "url": "https://huggingface.co/datasets/ryota39/gsm8k-ja",
         "languages": [
           "ja"
         ],
         "tasks": [],
         "size_categories": [
+          "1K<n<10K"
+        ]
+      },
+      {
+        "id": "WayBob/Japanese_Photo_conversation_cleaned",
+        "author": "WayBob",
+        "created_at": "2025-12-10 03:58:48+00:00",
+        "last_modified": "2025-12-10 13:40:52+00:00",
+        "downloads": 98,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-text-to-text",
+          "task_categories:visual-question-answering",
+          "language:ja",
+          "license:cc-by-2.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "vision",
+          "japanese",
+          "photo-description",
+          "conversation",
+          "multimodal"
+        ],
+        "description": "\n\t\n\t\t\n\t\tJapanese Photo Conversation (Cleaned)\n\t\n\nA cleaned and organized Japanese photo conversation dataset for training vision-language models on Japanese photo description and visual question answering tasks.\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nThis dataset is a cleaned and reorganized version combining data from:\n\nllm-jp/japanese-photos-conversation\nThePioneer/japanese-photos\n\nWe thank the original authors for their excellent work in collecting and annotating these datasets.\n\n\t\n\t\t\n\t\n\t\n\t\tDataset… See the full description on the dataset page: https://huggingface.co/datasets/WayBob/Japanese_Photo_conversation_cleaned.",
+        "url": "https://huggingface.co/datasets/WayBob/Japanese_Photo_conversation_cleaned",
+        "languages": [
+          "ja"
+        ],
+        "tasks": [
+          "image-text-to-text",
+          "visual-question-answering"
+        ],
+        "size_categories": [
           "n<1K"
         ]
       },
+      {
+        "id": "Rafi757/Hugs",
+        "author": "Rafi757",
+        "created_at": "2025-12-11 06:29:05+00:00",
+        "last_modified": "2025-12-11 06:29:07+00:00",
+        "downloads": 12,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "language:de",
+          "language:ja",
+          "language:fr",
+          "language:es",
+          "language:it",
+          "language:ru",
+          "language:pt",
+          "language:pl",
+          "language:nl",
+          "language:cs",
+          "language:zh",
+          "language:ro",
+          "language:sv",
+          "language:hu",
+          "language:sk",
+          "language:uk",
+          "language:th",
+          "language:da",
+          "language:id",
+          "language:el",
+          "language:fi",
+          "language:ca",
+          "language:tr",
+          "language:dag",
+          "language:hr",
+          "language:fa",
+          "language:bg",
+          "language:nb",
+          "language:kiu",
+          "language:ar",
+          "language:vi",
+          "language:sr",
+          "language:ko",
+          "language:sl",
+          "language:lt",
+          "language:hi",
+          "language:he",
+          "language:bs",
+          "language:ms",
+          "language:et",
+          "language:lv",
+          "language:bn",
+          "language:frp",
+          "language:is",
+          "language:glk",
+          "language:eu",
+          "language:gl",
+          "language:sq",
+          "language:mk",
+          "language:mr",
+          "language:ne",
+          "language:ka",
+          "language:la",
+          "language:pcm",
+          "language:mt",
+          "language:cy",
+          "language:vec",
+          "language:hy",
+          "language:nrm",
+          "language:wuu",
+          "language:anp",
+          "language:bcc",
+          "language:ur",
+          "language:af",
+          "language:az",
+          "language:ta",
+          "language:kk",
+          "language:nn",
+          "license:odc-by",
+          "size_categories:10M<n<100M",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\t📚 FinePDFs-Edu\n\t\n\n\n\n350B+ of highly educational tokens from PDFs 📄\n\n\n\t\n\t\t\n\t\tWhat is it?\n\t\n\n📚 FinePDFs-Edu dataset consists of 350B+ tokens of educational PDFs filtered from 📄 FinePDFs dataset covering 69 languages.\nFinePDFs was created using the formula inspired from FineWeb-Edu, we developed an educational quality classifier using annotations generated by Qwen3-235B-A22B-Instruct-2507 for each of 69 languages present in this dataset.\nWe then used this classifier to retain only the… See the full description on the dataset page: https://huggingface.co/datasets/Rafi757/Hugs.",
+        "url": "https://huggingface.co/datasets/Rafi757/Hugs",
+        "languages": [
+          "en",
+          "de",
+          "ja",
+          "fr",
+          "es",
+          "it",
+          "ru",
+          "pt",
+          "pl",
+          "nl",
+          "cs",
+          "zh",
+          "ro",
+          "sv",
+          "hu",
+          "sk",
+          "uk",
+          "th",
+          "da",
+          "id",
+          "el",
+          "fi",
+          "ca",
+          "tr",
+          "dag",
+          "hr",
+          "fa",
+          "bg",
+          "nb",
+          "kiu",
+          "ar",
+          "vi",
+          "sr",
+          "ko",
+          "sl",
+          "lt",
+          "hi",
+          "he",
+          "bs",
+          "ms",
+          "et",
+          "lv",
+          "bn",
+          "frp",
+          "is",
+          "glk",
+          "eu",
+          "gl",
+          "sq",
+          "mk",
+          "mr",
+          "ne",
+          "ka",
+          "la",
+          "pcm",
+          "mt",
+          "cy",
+          "vec",
+          "hy",
+          "nrm",
+          "wuu",
+          "anp",
+          "bcc",
+          "ur",
+          "af",
+          "az",
+          "ta",
+          "kk",
+          "nn"
+        ],
+        "tasks": [
+          "text-generation"
+        ],
+        "size_categories": [
+          "10M<n<100M"
+        ]
+      },
+      {
+        "id": "nguyenthanhasia/sino-xenic-reasoning-gap-dataset",
+        "author": "nguyenthanhasia",
+        "created_at": "2025-12-12 02:25:47+00:00",
+        "last_modified": "2025-12-12 02:25:49+00:00",
+        "downloads": 9,
+        "likes": 0,
+        "tags": [
+          "task_categories:question-answering",
+          "task_categories:text-classification",
+          "language:zh",
+          "language:ja",
+          "language:ko",
+          "language:vi",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:csv",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\tSino-Xenic Reasoning Gap Dataset\n\t\n\nA comprehensive evaluation dataset for testing Large Language Models' understanding of Sino-Xenic linguistic phenomena across Chinese, Japanese, Korean, and Vietnamese.\n\n\t\n\t\t\n\t\tDataset Overview\n\t\n\n\nTotal Samples: 297\nLanguages: Chinese, Japanese, Korean, Vietnamese\nCategories: 11\nTask Types: Surface-level and Deep Structural\n\n\n\t\n\t\t\n\t\tCategories\n\t\n\n\nChinese Idioms (27 samples) - Understanding Chinese idioms and their cultural meanings\nChinese… See the full description on the dataset page: https://huggingface.co/datasets/nguyenthanhasia/sino-xenic-reasoning-gap-dataset.",
+        "url": "https://huggingface.co/datasets/nguyenthanhasia/sino-xenic-reasoning-gap-dataset",
+        "languages": [
+          "zh",
+          "ja",
+          "ko",
+          "vi"
+        ],
+        "tasks": [
+          "question-answering",
+          "text-classification"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "kishida/sui-lang-examples",
+        "author": "kishida",
+        "created_at": "2025-12-14 07:00:52+00:00",
+        "last_modified": "2025-12-14 07:34:16+00:00",
+        "downloads": 0,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-generation",
+          "language:ja",
+          "license:apache-2.0",
+          "size_categories:n<1K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\tSui lang examples\n\t\n\nSimple examlpes of the Sui language.https://github.com/TakatoHonda/sui-lang\nThe sui codes are generated with gpt-oss 20b.\n",
+        "url": "https://huggingface.co/datasets/kishida/sui-lang-examples",
+        "languages": [
+          "ja"
+        ],
+        "tasks": [
+          "text-generation"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      }
+    ],
+    "removed_datasets": [
       {
         "id": "llm-jp/ja-topic-graph-qa",
         "author": "llm-jp",
@@ -489,15 +1005,157 @@
         ]
       },
       {
-        "id": "kishida/CompileError-Java-JP-cheerful",
-        "author": "kishida",
-        "created_at": "2025-11-21 10:35:08+00:00",
-        "last_modified": "2025-12-02 10:37:01+00:00",
-        "downloads": 175,
-        "likes": 1,
+        "id": "ryota39/open_preference-v0.3",
+        "author": "ryota39",
+        "created_at": "2024-06-25 08:55:53+00:00",
+        "last_modified": "2024-07-04 12:55:42+00:00",
+        "downloads": 66,
+        "likes": 0,
         "tags": [
           "language:ja",
-          "license:apache-2.0",
+          "license:cc-by-4.0",
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\tdescription\n\t\n\n\npublic RLHF dataset in Japanese\nthe construction of the reward model was reformatted into a classification task.\nQuality of Japanese text is middle arise from the synthetic generated sentences by Phi-3-medium(14B)\n\n\n\t\n\t\t\n\t\tdetails\n\t\n\n\nreformatted version of this dataset\nlabel 1 stands for chosen sentence.\nlabel 0 stands for rejected sentence.\n\n",
+        "url": "https://huggingface.co/datasets/ryota39/open_preference-v0.3",
+        "languages": [
+          "ja"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "10K<n<100K"
+        ]
+      },
+      {
+        "id": "singletongue/wikipedia-paragraphs",
+        "author": "singletongue",
+        "created_at": "2025-09-22 08:10:14+00:00",
+        "last_modified": "2025-12-07 19:54:56+00:00",
+        "downloads": 686,
+        "likes": 0,
+        "tags": [
+          "language:ar",
+          "language:de",
+          "language:en",
+          "language:es",
+          "language:fr",
+          "language:it",
+          "language:ja",
+          "language:ko",
+          "language:pt",
+          "language:ru",
+          "language:zh",
+          "license:cc-by-sa-4.0",
+          "license:gfdl",
+          "size_categories:10M<n<100M",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\twikipedia-paragraphs\n\t\n\nwikipedia-paragraphs is a dataset generated from Wikipedia, designed for natural language processing (NLP) research.\nEach entry contains cleaned paragraph text and Wikilink information extracted from a Wikipedia page, along with useful metadata such as categories, templates, and the associated Wikidata QID.\n\n\t\n\t\t\n\t\tDataset structure\n\t\n\n\n\t\n\t\t\n\t\tConfigurations\n\t\n\nThe dataset is organized into multiple configurations, such as enwiki-20250901.\nEach configuration… See the full description on the dataset page: https://huggingface.co/datasets/singletongue/wikipedia-paragraphs.",
+        "url": "https://huggingface.co/datasets/singletongue/wikipedia-paragraphs",
+        "languages": [
+          "ar",
+          "de",
+          "en",
+          "es",
+          "fr",
+          "it",
+          "ja",
+          "ko",
+          "pt",
+          "ru",
+          "zh"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "10M<n<100M"
+        ]
+      },
+      {
+        "id": "JunSotohigashi/JapaneseWikipediaTypoDataset",
+        "author": "JunSotohigashi",
+        "created_at": "2025-01-22 03:40:18+00:00",
+        "last_modified": "2025-01-22 08:18:40+00:00",
+        "downloads": 27,
+        "likes": 0,
+        "tags": [
+          "language:ja",
+          "license:cc-by-sa-3.0",
+          "size_categories:100K<n<1M",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\t日本語Wikipedia入力誤りデータセット\n\t\n\n\n\t\n\t\t\n\t\t概要\n\t\n\nこれは京都大学 言語メディア研究室によって公開されているデータセットをHuggingFaceで使用できるよう変換したものです．日本語Wikipedia入力誤りデータセット (v2) - 京都大学 言語メディア研究室  \n生成に使用したソースコードはここから参照できます．\n\n\t\n\t\t\n\t\tライセンス\n\t\n\n配布元に従い，CC-BY-SA 3.0とします．\n",
+        "url": "https://huggingface.co/datasets/JunSotohigashi/JapaneseWikipediaTypoDataset",
+        "languages": [
+          "ja"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "100K<n<1M"
+        ]
+      },
+      {
+        "id": "joyceyyy/Scenery_of_japan",
+        "author": "joyceyyy",
+        "created_at": "2025-12-05 02:32:44+00:00",
+        "last_modified": "2025-12-05 02:32:44+00:00",
+        "downloads": 7,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-to-image",
+          "language:en",
+          "language:ja",
+          "license:cc0-1.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\tScenery of japan.\n\t\n\nThis is a dataset to train text-to-image or other models without any copyright issue.\nAll materials used in this dataset are CC0 (Public domain /P.D.).\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\nThis dataset card aims to be a base template for new datasets. It has been generated using this raw template.\n\n\t\n\t\t\n\t\tSupported Tasks and Leaderboards\n\t\n\n[More Information Needed]\n\n\t\n\t\t\n\t\tLanguages\n\t\n\n[More Information Needed]\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\n\n\t\n\t\t\n\t\tData Instances\n\t\n\n[More… See the full description on the dataset page: https://huggingface.co/datasets/joyceyyy/Scenery_of_japan.",
+        "url": "https://huggingface.co/datasets/joyceyyy/Scenery_of_japan",
+        "languages": [
+          "en",
+          "ja"
+        ],
+        "tasks": [
+          "text-to-image"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "ryota39/open_preference_v0.2",
+        "author": "ryota39",
+        "created_at": "2024-06-19 09:34:01+00:00",
+        "last_modified": "2024-07-04 12:55:23+00:00",
+        "downloads": 27,
+        "likes": 0,
+        "tags": [
+          "language:ja",
+          "license:cc-by-sa-3.0",
           "size_categories:10K<n<100K",
           "format:json",
           "modality:text",
@@ -507,8 +1165,8 @@
           "library:polars",
           "region:us"
         ],
-        "description": "Javaのコンパイルエラーを元気に明るく説明するデータセットです。CodeNetから言語がJavaでCompile Errorのものを抽出。\nコンパイルエラーはJava 25の日本語環境でコンパイルしたものです。説明はGLM 4.5-Airで生成。\ncompile_messageがno errorのものはエラーなしで、descriptionもnull。compile_messageがnullのものは未対応でdescriptionもnull。descriptionがnullのものを省けば、エラー説明があるデータだけを抽出できます。\n全51398件\nコンパイルエラーあり32563件\n\n\n\t\n\t\t\n\t\tlicense: apache-2.0\n\t\n\n",
-        "url": "https://huggingface.co/datasets/kishida/CompileError-Java-JP-cheerful",
+        "description": "\n\t\n\t\t\n\t\tdescription\n\t\n\n\npublic RLHF dataset in Japanese\nthe construction of the reward model was reformatted into a classification task\nQuality of Japanese text is somewhat low arise from the combination of synthetic generated text and machine translation API\n\n\n\t\n\t\t\n\t\tdetails\n\t\n\n\nreformatted dataset of open_preference_v0.1\nlabel 1 stands for chosen sentence\nlabel 0 stands for rejected sentence\n\n",
+        "url": "https://huggingface.co/datasets/ryota39/open_preference_v0.2",
         "languages": [
           "ja"
         ],
@@ -518,227 +1176,86 @@
         ]
       },
       {
-        "id": "shisa-ai/eval-IFBench-results",
-        "author": "shisa-ai",
-        "created_at": "2025-12-07 09:34:57+00:00",
-        "last_modified": "2025-12-07 17:13:36+00:00",
-        "downloads": 0,
+        "id": "JunSotohigashi/JapaneseWikipediaTypoDataset_kanji",
+        "author": "JunSotohigashi",
+        "created_at": "2025-01-22 07:54:19+00:00",
+        "last_modified": "2025-07-16 04:56:14+00:00",
+        "downloads": 67,
         "likes": 0,
         "tags": [
-          "task_categories:text-generation",
-          "language:en",
           "language:ja",
-          "license:odc-by",
-          "size_categories:10K<n<100K",
-          "format:json",
+          "license:cc-by-sa-3.0",
+          "size_categories:100K<n<1M",
+          "format:parquet",
+          "modality:tabular",
           "modality:text",
           "library:datasets",
-          "library:dask",
+          "library:pandas",
           "library:mlcroissant",
-          "region:us",
-          "evaluation",
-          "instruction-following",
-          "ifbench"
-        ],
-        "description": "\n\t\n\t\t\n\t\tIFBench Evaluation Results\n\t\n\nThis dataset contains evaluation results for various language models on IFBench, a challenging benchmark for precise instruction following.\nNaming Convention: This repo follows the eval-{EVAL}-{type} schema for organizing evaluation datasets. Related repos:\n\neval-IFBench-results - Model evaluation outputs (this repo)\neval-IFBench-prompts - Test prompts/questions (if separated)\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nResults are organized by model name:… See the full description on the dataset page: https://huggingface.co/datasets/shisa-ai/eval-IFBench-results.",
-        "url": "https://huggingface.co/datasets/shisa-ai/eval-IFBench-results",
-        "languages": [
-          "en",
-          "ja"
-        ],
-        "tasks": [
-          "text-generation"
-        ],
-        "size_categories": [
-          "10K<n<100K"
-        ]
-      },
-      {
-        "id": "Reia666/GawrGura_Voice_Dataset",
-        "author": "Reia666",
-        "created_at": "2025-12-02 16:57:21+00:00",
-        "last_modified": "2025-12-02 17:10:10+00:00",
-        "downloads": 319,
-        "likes": 0,
-        "tags": [
-          "language:en",
-          "language:ja",
-          "size_categories:n<1K",
-          "format:audiofolder",
-          "modality:audio",
-          "library:datasets",
-          "library:mlcroissant",
-          "region:us",
-          "voice",
-          "GawrGura"
-        ],
-        "description": "\n\t\n\t\t\n\t\tGawrGura的语音数据集，适用于RVC/VITS模型训练（未标注文本）\n\t\n\n\n\t\n\t\t\n\t\tGawrGura_Voice_Dataset\n\t\n\n\n\t\n\t\t\n\t\t仅供个人学习研究，不得商用！\n\t\n\n",
-        "url": "https://huggingface.co/datasets/Reia666/GawrGura_Voice_Dataset",
-        "languages": [
-          "en",
-          "ja"
-        ],
-        "tasks": [],
-        "size_categories": [
-          "n<1K"
-        ]
-      },
-      {
-        "id": "EeeLM/Japanese-NSFW-CreativeWriting-GLM4.6-v2",
-        "author": "EeeLM",
-        "created_at": "2025-11-24 10:04:41+00:00",
-        "last_modified": "2025-12-03 10:01:36+00:00",
-        "downloads": 44,
-        "likes": 0,
-        "tags": [
-          "language:ja",
-          "license:cc0-1.0",
-          "region:us",
-          "not-for-all-audiences"
-        ],
-        "description": "",
-        "url": "https://huggingface.co/datasets/EeeLM/Japanese-NSFW-CreativeWriting-GLM4.6-v2",
-        "languages": [
-          "ja"
-        ],
-        "tasks": [],
-        "size_categories": []
-      }
-    ],
-    "removed_datasets": [
-      {
-        "id": "nyanko7/yandere2023",
-        "author": "nyanko7",
-        "created_at": "2024-01-07 10:31:53+00:00",
-        "last_modified": "2024-05-06 08:22:23+00:00",
-        "downloads": 2050,
-        "likes": 10,
-        "tags": [
-          "task_categories:image-classification",
-          "task_categories:image-to-image",
-          "task_categories:text-to-image",
-          "language:en",
-          "language:ja",
-          "license:mit",
-          "size_categories:1M<n<10M",
+          "library:polars",
           "region:us"
         ],
-        "description": "\n\t\n\t\t\n\t\tYandere2023: A Large-Scale Crowdsourced and Tagged Anime Illustration Dataset\n\t\n\n\n\nYandere2023 is a comprehensive anime image dataset with over 1.2 million high-quality images sourced from various materials, including key frames, manga scans, artbooks, and more. While the average number of tags per image is relatively low, the dataset boasts a diverse collection of images with exceptional quality.\n\nShared by: Nyanko Devs\nLanguage(s): English, Japanese\nLicense: MIT\n\n\n\t\n\t\t\n\t\n\t\n\t\tUses… See the full description on the dataset page: https://huggingface.co/datasets/nyanko7/yandere2023.",
-        "url": "https://huggingface.co/datasets/nyanko7/yandere2023",
-        "languages": [
-          "en",
-          "ja"
-        ],
-        "tasks": [
-          "image-classification",
-          "image-to-image",
-          "text-to-image"
-        ],
-        "size_categories": [
-          "1M<n<10M"
-        ]
-      },
-      {
-        "id": "samson-castalk/MSR-86K",
-        "author": "samson-castalk",
-        "created_at": "2025-06-12 07:48:36+00:00",
-        "last_modified": "2025-06-13 07:11:33+00:00",
-        "downloads": 7,
-        "likes": 1,
-        "tags": [
-          "task_categories:automatic-speech-recognition",
-          "language:es",
-          "language:ko",
-          "language:en",
-          "language:fr",
-          "language:de",
-          "language:hi",
-          "language:vi",
-          "language:it",
-          "language:nl",
-          "language:pt",
-          "language:th",
-          "language:ru",
-          "language:id",
-          "language:ja",
-          "language:ar",
-          "license:cc-by-nc-nd-4.0",
-          "arxiv:2406.18301",
-          "region:us"
-        ],
-        "description": "\n\t\n\t\t\n\t\tDataset Card for MSR-86K\n\t\n\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\nMSR-86K is an evolving, large-scale multilingual corpus for speech recognition research. The corpus is derived from publicly accessible videos on YouTube, comprising 15 languages and a total of 86,300 hours of transcribed ASR data. We believe that such a large-scale corpus will propel the research in multilingual speech algorithms. MSR-86K doesn't own the copyright of the audios, the copyright remains with the original owners of… See the full description on the dataset page: https://huggingface.co/datasets/samson-castalk/MSR-86K.",
-        "url": "https://huggingface.co/datasets/samson-castalk/MSR-86K",
-        "languages": [
-          "es",
-          "ko",
-          "en",
-          "fr",
-          "de",
-          "hi",
-          "vi",
-          "it",
-          "nl",
-          "pt",
-          "th",
-          "ru",
-          "id",
-          "ja",
-          "ar"
-        ],
-        "tasks": [
-          "automatic-speech-recognition"
-        ],
-        "size_categories": []
-      },
-      {
-        "id": "Kratos-AI/Japanese_Documents_Dataset_PDF",
-        "author": "Kratos-AI",
-        "created_at": "2025-11-05 07:36:19+00:00",
-        "last_modified": "2025-11-07 06:11:26+00:00",
-        "downloads": 493,
-        "likes": 0,
-        "tags": [
-          "language:ja",
-          "license:cc-by-4.0",
-          "size_categories:n<1K",
-          "modality:document",
-          "library:datasets",
-          "library:mlcroissant",
-          "region:us",
-          "pdf",
-          "japanese",
-          "document-understanding",
-          "text-recognition",
-          "ocr",
-          "ai-research",
-          "computer-vision",
-          "text-extraction"
-        ],
-        "description": "\n\t\n\t\t\n\t\tJapanese Documents Dataset (PDF)\n\t\n\nThis dataset contains a curated collection of Japanese-language documents in PDF format. The corpus includes textbooks, research papers, news articles, public-domain books, and government publications written in Japanese. It is intended to support AI research in OCR, document understanding, and multilingual text recognition.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io… See the full description on the dataset page: https://huggingface.co/datasets/Kratos-AI/Japanese_Documents_Dataset_PDF.",
-        "url": "https://huggingface.co/datasets/Kratos-AI/Japanese_Documents_Dataset_PDF",
+        "description": "\n\t\n\t\t\n\t\t日本語ウィキペディア入力誤りデータセット (漢字誤変換抽出版)\n\t\n\n\n\t\n\t\t\n\t\t概要\n\t\n\nこのデータセットは，京都大学 言語メディア研究室によって公開されているデータセットをHuggingFaceで使用できるよう変換したものです．日本語Wikipedia入力誤りデータセット (v2) - 京都大学 言語メディア研究室  \nこのデータセットでは，JunSotohigashi/JapaneseWikipediaTypoDatasetから，漢字誤変換のみを抽出しています．誤りの種類がkanji-conversion_aとkanji-conversion_bの事例のみをフィルタリングし，誤り部分の前と後ろに文を分割しました．これにより，pre_textはtext_head + pre_str + text_tailと等価になります．post_textについては，diffsに複数のデータが存在する場合にはそれをすべて適用したあとの文字列であるため，post_textとtext_head + post_str + text_tailが同じになるとは限りません．… See the full description on the dataset page: https://huggingface.co/datasets/JunSotohigashi/JapaneseWikipediaTypoDataset_kanji.",
+        "url": "https://huggingface.co/datasets/JunSotohigashi/JapaneseWikipediaTypoDataset_kanji",
         "languages": [
           "ja"
         ],
         "tasks": [],
         "size_categories": [
-          "n<1K"
+          "100K<n<1M"
         ]
       }
     ],
     "updated_datasets": [
+      {
+        "id": "AaronZ345/GTSinger",
+        "author": "AaronZ345",
+        "url": "https://huggingface.co/datasets/AaronZ345/GTSinger",
+        "changes": {
+          "downloads": {
+            "previous": 4797,
+            "current": 14449,
+            "change": 9652
+          },
+          "likes": {
+            "previous": 10,
+            "current": 10,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
       {
         "id": "Shitao/MLDR",
         "author": "Shitao",
         "url": "https://huggingface.co/datasets/Shitao/MLDR",
         "changes": {
           "downloads": {
-            "previous": 17545,
-            "current": 27853,
-            "change": 10308
+            "previous": 27853,
+            "current": 35322,
+            "change": 7469
           },
           "likes": {
             "previous": 73,
             "current": 73,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "Isamu136/Japanese-Political-Money-OCR-with-Qwen",
+        "author": "Isamu136",
+        "url": "https://huggingface.co/datasets/Isamu136/Japanese-Political-Money-OCR-with-Qwen",
+        "changes": {
+          "downloads": {
+            "previous": 3688,
+            "current": 9100,
+            "change": 5412
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
             "change": 0
           },
           "description_changed": false
@@ -750,193 +1267,85 @@
         "url": "https://huggingface.co/datasets/csebuetnlp/xlsum",
         "changes": {
           "downloads": {
-            "previous": 14158,
-            "current": 24072,
-            "change": 9914
+            "previous": 24072,
+            "current": 28650,
+            "change": 4578
           },
           "likes": {
             "previous": 146,
-            "current": 146,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "nyanko7/danbooru2023",
-        "author": "nyanko7",
-        "url": "https://huggingface.co/datasets/nyanko7/danbooru2023",
-        "changes": {
-          "downloads": {
-            "previous": 16642,
-            "current": 23902,
-            "change": 7260
-          },
-          "likes": {
-            "previous": 275,
-            "current": 276,
+            "current": 147,
             "change": 1
           },
           "description_changed": false
         }
       },
       {
-        "id": "deepghs/danbooru2024",
+        "id": "simon3000/genshin-voice",
+        "author": "simon3000",
+        "url": "https://huggingface.co/datasets/simon3000/genshin-voice",
+        "changes": {
+          "downloads": {
+            "previous": 6954,
+            "current": 10991,
+            "change": 4037
+          },
+          "likes": {
+            "previous": 137,
+            "current": 147,
+            "change": 10
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "jhu-clsp/megawika-2",
+        "author": "jhu-clsp",
+        "url": "https://huggingface.co/datasets/jhu-clsp/megawika-2",
+        "changes": {
+          "downloads": {
+            "previous": 448,
+            "current": 4401,
+            "change": 3953
+          },
+          "likes": {
+            "previous": 2,
+            "current": 2,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "KakologArchives/KakologArchives",
+        "author": "KakologArchives",
+        "url": "https://huggingface.co/datasets/KakologArchives/KakologArchives",
+        "changes": {
+          "downloads": {
+            "previous": 56622,
+            "current": 59833,
+            "change": 3211
+          },
+          "likes": {
+            "previous": 16,
+            "current": 17,
+            "change": 1
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "deepghs/danbooru2024-webp-4Mpixel",
         "author": "deepghs",
-        "url": "https://huggingface.co/datasets/deepghs/danbooru2024",
+        "url": "https://huggingface.co/datasets/deepghs/danbooru2024-webp-4Mpixel",
         "changes": {
           "downloads": {
-            "previous": 8247,
-            "current": 15289,
-            "change": 7042
+            "previous": 2504,
+            "current": 5339,
+            "change": 2835
           },
           "likes": {
-            "previous": 36,
-            "current": 38,
-            "change": 2
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "CohereLabs/include-base-44",
-        "author": "CohereLabs",
-        "url": "https://huggingface.co/datasets/CohereLabs/include-base-44",
-        "changes": {
-          "downloads": {
-            "previous": 6498,
-            "current": 11722,
-            "change": 5224
-          },
-          "likes": {
-            "previous": 41,
-            "current": 41,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "amphion/Emilia-Dataset",
-        "author": "amphion",
-        "url": "https://huggingface.co/datasets/amphion/Emilia-Dataset",
-        "changes": {
-          "downloads": {
-            "previous": 85744,
-            "current": 89996,
-            "change": 4252
-          },
-          "likes": {
-            "previous": 402,
-            "current": 403,
-            "change": 1
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "quchenyuan/360x_dataset_HR",
-        "author": "quchenyuan",
-        "url": "https://huggingface.co/datasets/quchenyuan/360x_dataset_HR",
-        "changes": {
-          "downloads": {
-            "previous": 1980,
-            "current": 6066,
-            "change": 4086
-          },
-          "likes": {
-            "previous": 7,
-            "current": 7,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "AaronZ345/GTSinger",
-        "author": "AaronZ345",
-        "url": "https://huggingface.co/datasets/AaronZ345/GTSinger",
-        "changes": {
-          "downloads": {
-            "previous": 1735,
-            "current": 4797,
-            "change": 3062
-          },
-          "likes": {
-            "previous": 10,
-            "current": 10,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "HuggingFaceFW/finepdfs-edu",
-        "author": "HuggingFaceFW",
-        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs-edu",
-        "changes": {
-          "downloads": {
-            "previous": 13438,
-            "current": 16226,
-            "change": 2788
-          },
-          "likes": {
-            "previous": 48,
-            "current": 50,
-            "change": 2
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "hpprc/emb",
-        "author": "hpprc",
-        "url": "https://huggingface.co/datasets/hpprc/emb",
-        "changes": {
-          "downloads": {
-            "previous": 7596,
-            "current": 10273,
-            "change": 2677
-          },
-          "likes": {
-            "previous": 13,
-            "current": 13,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "wecover/OPUS",
-        "author": "wecover",
-        "url": "https://huggingface.co/datasets/wecover/OPUS",
-        "changes": {
-          "downloads": {
-            "previous": 2182,
-            "current": 4733,
-            "change": 2551
-          },
-          "likes": {
-            "previous": 0,
-            "current": 0,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "AkiraChisaka/sizefetish-jp2cn-translated-text",
-        "author": "AkiraChisaka",
-        "url": "https://huggingface.co/datasets/AkiraChisaka/sizefetish-jp2cn-translated-text",
-        "changes": {
-          "downloads": {
-            "previous": 238,
-            "current": 2690,
-            "change": 2452
-          },
-          "likes": {
-            "previous": 5,
-            "current": 5,
+            "previous": 17,
+            "current": 17,
             "change": 0
           },
           "description_changed": false
@@ -948,261 +1357,27 @@
         "url": "https://huggingface.co/datasets/Helsinki-NLP/opus-100",
         "changes": {
           "downloads": {
-            "previous": 13606,
-            "current": 16047,
-            "change": 2441
+            "previous": 16047,
+            "current": 18655,
+            "change": 2608
           },
           "likes": {
-            "previous": 213,
-            "current": 214,
-            "change": 1
+            "previous": 214,
+            "current": 216,
+            "change": 2
           },
           "description_changed": false
         }
       },
       {
-        "id": "SakanaAI/ALE-Bench",
-        "author": "SakanaAI",
-        "url": "https://huggingface.co/datasets/SakanaAI/ALE-Bench",
+        "id": "quchenyuan/360x_dataset_HR",
+        "author": "quchenyuan",
+        "url": "https://huggingface.co/datasets/quchenyuan/360x_dataset_HR",
         "changes": {
           "downloads": {
-            "previous": 8149,
-            "current": 10406,
-            "change": 2257
-          },
-          "likes": {
-            "previous": 11,
-            "current": 11,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "sarulab-speech/SaSLaW",
-        "author": "sarulab-speech",
-        "url": "https://huggingface.co/datasets/sarulab-speech/SaSLaW",
-        "changes": {
-          "downloads": {
-            "previous": 538,
-            "current": 2740,
-            "change": 2202
-          },
-          "likes": {
-            "previous": 0,
-            "current": 0,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "styletts2-community/multilingual-pl-bert",
-        "author": "styletts2-community",
-        "url": "https://huggingface.co/datasets/styletts2-community/multilingual-pl-bert",
-        "changes": {
-          "downloads": {
-            "previous": 1694,
-            "current": 3892,
-            "change": 2198
-          },
-          "likes": {
-            "previous": 18,
-            "current": 18,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "MBZUAI/Bactrian-X",
-        "author": "MBZUAI",
-        "url": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
-        "changes": {
-          "downloads": {
-            "previous": 2581,
-            "current": 4742,
-            "change": 2161
-          },
-          "likes": {
-            "previous": 121,
-            "current": 121,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "litagin/reazon-speech-v2-clone",
-        "author": "litagin",
-        "url": "https://huggingface.co/datasets/litagin/reazon-speech-v2-clone",
-        "changes": {
-          "downloads": {
-            "previous": 754,
-            "current": 2810,
-            "change": 2056
-          },
-          "likes": {
-            "previous": 10,
-            "current": 10,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "joujiboi/japanese-anime-speech-v2",
-        "author": "joujiboi",
-        "url": "https://huggingface.co/datasets/joujiboi/japanese-anime-speech-v2",
-        "changes": {
-          "downloads": {
-            "previous": 1452,
-            "current": 3428,
-            "change": 1976
-          },
-          "likes": {
-            "previous": 119,
-            "current": 120,
-            "change": 1
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "llm-jp/AnswerCarefully",
-        "author": "llm-jp",
-        "url": "https://huggingface.co/datasets/llm-jp/AnswerCarefully",
-        "changes": {
-          "downloads": {
-            "previous": 5258,
-            "current": 7112,
-            "change": 1854
-          },
-          "likes": {
-            "previous": 38,
-            "current": 45,
-            "change": 7
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "rayliuca/WikidataLabels",
-        "author": "rayliuca",
-        "url": "https://huggingface.co/datasets/rayliuca/WikidataLabels",
-        "changes": {
-          "downloads": {
-            "previous": 7671,
-            "current": 9504,
-            "change": 1833
-          },
-          "likes": {
-            "previous": 3,
-            "current": 3,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "deepghs/site_tags",
-        "author": "deepghs",
-        "url": "https://huggingface.co/datasets/deepghs/site_tags",
-        "changes": {
-          "downloads": {
-            "previous": 1940,
-            "current": 3746,
-            "change": 1806
-          },
-          "likes": {
-            "previous": 8,
-            "current": 8,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "INK-USC/xcsr",
-        "author": "INK-USC",
-        "url": "https://huggingface.co/datasets/INK-USC/xcsr",
-        "changes": {
-          "downloads": {
-            "previous": 2549,
-            "current": 4308,
-            "change": 1759
-          },
-          "likes": {
-            "previous": 8,
-            "current": 8,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "Helsinki-NLP/news_commentary",
-        "author": "Helsinki-NLP",
-        "url": "https://huggingface.co/datasets/Helsinki-NLP/news_commentary",
-        "changes": {
-          "downloads": {
-            "previous": 2444,
-            "current": 4194,
-            "change": 1750
-          },
-          "likes": {
-            "previous": 37,
-            "current": 37,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "deepghs/game_character_skins",
-        "author": "deepghs",
-        "url": "https://huggingface.co/datasets/deepghs/game_character_skins",
-        "changes": {
-          "downloads": {
-            "previous": 11027,
-            "current": 12749,
-            "change": 1722
-          },
-          "likes": {
-            "previous": 10,
-            "current": 10,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "CohereLabs/Global-MMLU",
-        "author": "CohereLabs",
-        "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU",
-        "changes": {
-          "downloads": {
-            "previous": 14212,
-            "current": 15910,
-            "change": 1698
-          },
-          "likes": {
-            "previous": 140,
-            "current": 140,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "Helsinki-NLP/opus_openoffice",
-        "author": "Helsinki-NLP",
-        "url": "https://huggingface.co/datasets/Helsinki-NLP/opus_openoffice",
-        "changes": {
-          "downloads": {
-            "previous": 4313,
-            "current": 5955,
-            "change": 1642
+            "previous": 6066,
+            "current": 8189,
+            "change": 2123
           },
           "likes": {
             "previous": 7,
@@ -1213,86 +1388,68 @@
         }
       },
       {
-        "id": "juletxara/mgsm",
-        "author": "juletxara",
-        "url": "https://huggingface.co/datasets/juletxara/mgsm",
+        "id": "DSULT-Core/Renai-Circulation",
+        "author": "DSULT-Core",
+        "url": "https://huggingface.co/datasets/DSULT-Core/Renai-Circulation",
         "changes": {
           "downloads": {
-            "previous": 7855,
-            "current": 9466,
-            "change": 1611
+            "previous": 3481,
+            "current": 5339,
+            "change": 1858
           },
           "likes": {
-            "previous": 38,
-            "current": 39,
-            "change": 1
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "lmg-anon/vntl-leaderboard",
-        "author": "lmg-anon",
-        "url": "https://huggingface.co/datasets/lmg-anon/vntl-leaderboard",
-        "changes": {
-          "downloads": {
-            "previous": 353,
-            "current": 1923,
-            "change": 1570
-          },
-          "likes": {
-            "previous": 39,
-            "current": 39,
+            "previous": 1,
+            "current": 1,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "Coldog2333/JMedBench",
-        "author": "Coldog2333",
-        "url": "https://huggingface.co/datasets/Coldog2333/JMedBench",
+        "id": "shintaro-ozaki/entity-explanation",
+        "author": "shintaro-ozaki",
+        "url": "https://huggingface.co/datasets/shintaro-ozaki/entity-explanation",
         "changes": {
           "downloads": {
-            "previous": 5252,
-            "current": 6781,
-            "change": 1529
+            "previous": 668,
+            "current": 2403,
+            "change": 1735
           },
           "likes": {
-            "previous": 8,
-            "current": 8,
+            "previous": 0,
+            "current": 0,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "RyokoExtra/MissingKeys",
-        "author": "RyokoExtra",
-        "url": "https://huggingface.co/datasets/RyokoExtra/MissingKeys",
+        "id": "clips/mqa",
+        "author": "clips",
+        "url": "https://huggingface.co/datasets/clips/mqa",
         "changes": {
           "downloads": {
-            "previous": 720,
-            "current": 2247,
-            "change": 1527
+            "previous": 3056,
+            "current": 4786,
+            "change": 1730
           },
           "likes": {
-            "previous": 2,
-            "current": 2,
+            "previous": 55,
+            "current": 55,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "zwa73/SoulTide-AudioData-Dataset",
-        "author": "zwa73",
-        "url": "https://huggingface.co/datasets/zwa73/SoulTide-AudioData-Dataset",
+        "id": "bolorjinbat/LFM2-ColBERT-350M",
+        "author": "bolorjinbat",
+        "url": "https://huggingface.co/datasets/bolorjinbat/LFM2-ColBERT-350M",
         "changes": {
           "downloads": {
-            "previous": 11930,
-            "current": 13416,
-            "change": 1486
+            "previous": 22,
+            "current": 1682,
+            "change": 1660
           },
           "likes": {
             "previous": 0,
@@ -1308,9 +1465,9 @@
         "url": "https://huggingface.co/datasets/Fujitsu-FRE/MAPS_Verified",
         "changes": {
           "downloads": {
-            "previous": 2324,
-            "current": 3800,
-            "change": 1476
+            "previous": 3800,
+            "current": 5324,
+            "change": 1524
           },
           "likes": {
             "previous": 2,
@@ -1321,198 +1478,18 @@
         }
       },
       {
-        "id": "deepghs/danbooru2023_index",
-        "author": "deepghs",
-        "url": "https://huggingface.co/datasets/deepghs/danbooru2023_index",
+        "id": "Coldog2333/JMedBench",
+        "author": "Coldog2333",
+        "url": "https://huggingface.co/datasets/Coldog2333/JMedBench",
         "changes": {
           "downloads": {
-            "previous": 629,
-            "current": 2103,
-            "change": 1474
+            "previous": 6781,
+            "current": 8206,
+            "change": 1425
           },
           "likes": {
-            "previous": 4,
-            "current": 4,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "facebook/2M-Belebele",
-        "author": "facebook",
-        "url": "https://huggingface.co/datasets/facebook/2M-Belebele",
-        "changes": {
-          "downloads": {
-            "previous": 948,
-            "current": 2419,
-            "change": 1471
-          },
-          "likes": {
-            "previous": 12,
-            "current": 12,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "LHF/escorpius-mr",
-        "author": "LHF",
-        "url": "https://huggingface.co/datasets/LHF/escorpius-mr",
-        "changes": {
-          "downloads": {
-            "previous": 1548,
-            "current": 3006,
-            "change": 1458
-          },
-          "likes": {
-            "previous": 5,
-            "current": 5,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "community-datasets/tapaco",
-        "author": "community-datasets",
-        "url": "https://huggingface.co/datasets/community-datasets/tapaco",
-        "changes": {
-          "downloads": {
-            "previous": 8843,
-            "current": 10293,
-            "change": 1450
-          },
-          "likes": {
-            "previous": 47,
-            "current": 47,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "epfml/FineWeb2-embedded",
-        "author": "epfml",
-        "url": "https://huggingface.co/datasets/epfml/FineWeb2-embedded",
-        "changes": {
-          "downloads": {
-            "previous": 6917,
-            "current": 8332,
-            "change": 1415
-          },
-          "likes": {
-            "previous": 4,
-            "current": 4,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "DeliberatorArchiver/asmr-archive-data-02",
-        "author": "DeliberatorArchiver",
-        "url": "https://huggingface.co/datasets/DeliberatorArchiver/asmr-archive-data-02",
-        "changes": {
-          "downloads": {
-            "previous": 427,
-            "current": 1834,
-            "change": 1407
-          },
-          "likes": {
-            "previous": 5,
-            "current": 5,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "nlp4j/wikipedia",
-        "author": "nlp4j",
-        "url": "https://huggingface.co/datasets/nlp4j/wikipedia",
-        "changes": {
-          "downloads": {
-            "previous": 727,
-            "current": 2107,
-            "change": 1380
-          },
-          "likes": {
-            "previous": 1,
-            "current": 1,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "izumi-lab/mc4-ja-filter-ja-normal",
-        "author": "izumi-lab",
-        "url": "https://huggingface.co/datasets/izumi-lab/mc4-ja-filter-ja-normal",
-        "changes": {
-          "downloads": {
-            "previous": 656,
-            "current": 2025,
-            "change": 1369
-          },
-          "likes": {
-            "previous": 5,
-            "current": 5,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "clips/mqa",
-        "author": "clips",
-        "url": "https://huggingface.co/datasets/clips/mqa",
-        "changes": {
-          "downloads": {
-            "previous": 1710,
-            "current": 3056,
-            "change": 1346
-          },
-          "likes": {
-            "previous": 55,
-            "current": 55,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "mutiyama/alt",
-        "author": "mutiyama",
-        "url": "https://huggingface.co/datasets/mutiyama/alt",
-        "changes": {
-          "downloads": {
-            "previous": 1317,
-            "current": 2657,
-            "change": 1340
-          },
-          "likes": {
-            "previous": 21,
-            "current": 21,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "sentence-transformers/parallel-sentences-opus-100",
-        "author": "sentence-transformers",
-        "url": "https://huggingface.co/datasets/sentence-transformers/parallel-sentences-opus-100",
-        "changes": {
-          "downloads": {
-            "previous": 1561,
-            "current": 2879,
-            "change": 1318
-          },
-          "likes": {
-            "previous": 2,
-            "current": 2,
+            "previous": 8,
+            "current": 8,
             "change": 0
           },
           "description_changed": false
@@ -1524,45 +1501,171 @@
         "url": "https://huggingface.co/datasets/facebook/belebele",
         "changes": {
           "downloads": {
-            "previous": 11557,
-            "current": 12869,
-            "change": 1312
+            "previous": 12869,
+            "current": 14195,
+            "change": 1326
           },
           "likes": {
             "previous": 119,
-            "current": 119,
-            "change": 0
+            "current": 120,
+            "change": 1
           },
           "description_changed": false
         }
       },
       {
-        "id": "pasinit/xlwic",
-        "author": "pasinit",
-        "url": "https://huggingface.co/datasets/pasinit/xlwic",
+        "id": "deepghs/sankaku_full",
+        "author": "deepghs",
+        "url": "https://huggingface.co/datasets/deepghs/sankaku_full",
         "changes": {
           "downloads": {
-            "previous": 1389,
-            "current": 2700,
-            "change": 1311
+            "previous": 1531,
+            "current": 2623,
+            "change": 1092
           },
           "likes": {
-            "previous": 6,
-            "current": 6,
+            "previous": 96,
+            "current": 96,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "tyqiangz/multilingual-sentiments",
-        "author": "tyqiangz",
-        "url": "https://huggingface.co/datasets/tyqiangz/multilingual-sentiments",
+        "id": "Hui519/SpeechEval",
+        "author": "Hui519",
+        "url": "https://huggingface.co/datasets/Hui519/SpeechEval",
         "changes": {
           "downloads": {
-            "previous": 1598,
-            "current": 2903,
-            "change": 1305
+            "previous": 499,
+            "current": 1529,
+            "change": 1030
+          },
+          "likes": {
+            "previous": 3,
+            "current": 3,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "wecover/OPUS",
+        "author": "wecover",
+        "url": "https://huggingface.co/datasets/wecover/OPUS",
+        "changes": {
+          "downloads": {
+            "previous": 4733,
+            "current": 5736,
+            "change": 1003
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "eaddario/imatrix-calibration",
+        "author": "eaddario",
+        "url": "https://huggingface.co/datasets/eaddario/imatrix-calibration",
+        "changes": {
+          "downloads": {
+            "previous": 13047,
+            "current": 13980,
+            "change": 933
+          },
+          "likes": {
+            "previous": 24,
+            "current": 26,
+            "change": 2
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "deepghs/anime_pictures_full",
+        "author": "deepghs",
+        "url": "https://huggingface.co/datasets/deepghs/anime_pictures_full",
+        "changes": {
+          "downloads": {
+            "previous": 1187,
+            "current": 2102,
+            "change": 915
+          },
+          "likes": {
+            "previous": 9,
+            "current": 9,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "MomoyamaSawa/Voice-KusanagiNene",
+        "author": "MomoyamaSawa",
+        "url": "https://huggingface.co/datasets/MomoyamaSawa/Voice-KusanagiNene",
+        "changes": {
+          "downloads": {
+            "previous": 1756,
+            "current": 2644,
+            "change": 888
+          },
+          "likes": {
+            "previous": 16,
+            "current": 16,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "jbross-ibm-research/mgsm",
+        "author": "jbross-ibm-research",
+        "url": "https://huggingface.co/datasets/jbross-ibm-research/mgsm",
+        "changes": {
+          "downloads": {
+            "previous": 3170,
+            "current": 4053,
+            "change": 883
+          },
+          "likes": {
+            "previous": 2,
+            "current": 2,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "nyanko-devs/yandere2023",
+        "author": "nyanko-devs",
+        "url": "https://huggingface.co/datasets/nyanko-devs/yandere2023",
+        "changes": {
+          "downloads": {
+            "previous": 3505,
+            "current": 4372,
+            "change": 867
+          },
+          "likes": {
+            "previous": 10,
+            "current": 10,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "GEM/wiki_lingua",
+        "author": "GEM",
+        "url": "https://huggingface.co/datasets/GEM/wiki_lingua",
+        "changes": {
+          "downloads": {
+            "previous": 7408,
+            "current": 8273,
+            "change": 865
           },
           "likes": {
             "previous": 50,
@@ -1573,67 +1676,445 @@
         }
       },
       {
-        "id": "simon3000/genshin-voice",
-        "author": "simon3000",
-        "url": "https://huggingface.co/datasets/simon3000/genshin-voice",
+        "id": "OzoneAsai/4typeCalculation",
+        "author": "OzoneAsai",
+        "url": "https://huggingface.co/datasets/OzoneAsai/4typeCalculation",
         "changes": {
           "downloads": {
-            "previous": 5678,
-            "current": 6954,
-            "change": 1276
+            "previous": 994,
+            "current": 1849,
+            "change": 855
           },
           "likes": {
-            "previous": 134,
-            "current": 137,
-            "change": 3
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "stanford-oval/ccnews",
-        "author": "stanford-oval",
-        "url": "https://huggingface.co/datasets/stanford-oval/ccnews",
-        "changes": {
-          "downloads": {
-            "previous": 2600,
-            "current": 3853,
-            "change": 1253
-          },
-          "likes": {
-            "previous": 31,
-            "current": 31,
+            "previous": 1,
+            "current": 1,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "Qwen/P-MMEval",
-        "author": "Qwen",
-        "url": "https://huggingface.co/datasets/Qwen/P-MMEval",
+        "id": "singletongue/wikipedia-utils",
+        "author": "singletongue",
+        "url": "https://huggingface.co/datasets/singletongue/wikipedia-utils",
         "changes": {
           "downloads": {
-            "previous": 968,
-            "current": 2204,
-            "change": 1236
+            "previous": 3103,
+            "current": 3938,
+            "change": 835
           },
           "likes": {
-            "previous": 14,
-            "current": 14,
+            "previous": 7,
+            "current": 7,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "sarulab-speech/SaSLaW",
+        "author": "sarulab-speech",
+        "url": "https://huggingface.co/datasets/sarulab-speech/SaSLaW",
+        "changes": {
+          "downloads": {
+            "previous": 2740,
+            "current": 3552,
+            "change": 812
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "joujiboi/Galgame-VisualNovel-Reupload",
+        "author": "joujiboi",
+        "url": "https://huggingface.co/datasets/joujiboi/Galgame-VisualNovel-Reupload",
+        "changes": {
+          "downloads": {
+            "previous": 4051,
+            "current": 4845,
+            "change": 794
+          },
+          "likes": {
+            "previous": 24,
+            "current": 24,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "DeliberatorArchiver/gi_cutscn_new",
+        "author": "DeliberatorArchiver",
+        "url": "https://huggingface.co/datasets/DeliberatorArchiver/gi_cutscn_new",
+        "changes": {
+          "downloads": {
+            "previous": 1242,
+            "current": 2005,
+            "change": 763
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "deepghs/e621_newest",
+        "author": "deepghs",
+        "url": "https://huggingface.co/datasets/deepghs/e621_newest",
+        "changes": {
+          "downloads": {
+            "previous": 222,
+            "current": 960,
+            "change": 738
+          },
+          "likes": {
+            "previous": 3,
+            "current": 3,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "tanganke/kmnist",
+        "author": "tanganke",
+        "url": "https://huggingface.co/datasets/tanganke/kmnist",
+        "changes": {
+          "downloads": {
+            "previous": 4586,
+            "current": 5304,
+            "change": 718
+          },
+          "likes": {
+            "previous": 1,
+            "current": 1,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "IWSLT/iwslt2017",
+        "author": "IWSLT",
+        "url": "https://huggingface.co/datasets/IWSLT/iwslt2017",
+        "changes": {
+          "downloads": {
+            "previous": 5652,
+            "current": 6359,
+            "change": 707
+          },
+          "likes": {
+            "previous": 38,
+            "current": 38,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "WueNLP/belebele-fleurs",
+        "author": "WueNLP",
+        "url": "https://huggingface.co/datasets/WueNLP/belebele-fleurs",
+        "changes": {
+          "downloads": {
+            "previous": 994,
+            "current": 1684,
+            "change": 690
+          },
+          "likes": {
+            "previous": 9,
+            "current": 9,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "nvidia/Nemotron-Post-Training-Dataset-v2",
+        "author": "nvidia",
+        "url": "https://huggingface.co/datasets/nvidia/Nemotron-Post-Training-Dataset-v2",
+        "changes": {
+          "downloads": {
+            "previous": 8216,
+            "current": 8892,
+            "change": 676
+          },
+          "likes": {
+            "previous": 80,
+            "current": 82,
+            "change": 2
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "jniimi/weather_forecast_japan",
+        "author": "jniimi",
+        "url": "https://huggingface.co/datasets/jniimi/weather_forecast_japan",
+        "changes": {
+          "downloads": {
+            "previous": 2167,
+            "current": 2838,
+            "change": 671
+          },
+          "likes": {
+            "previous": 2,
+            "current": 2,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "Viet-Mistral/CulturaY",
+        "author": "Viet-Mistral",
+        "url": "https://huggingface.co/datasets/Viet-Mistral/CulturaY",
+        "changes": {
+          "downloads": {
+            "previous": 4673,
+            "current": 5331,
+            "change": 658
+          },
+          "likes": {
+            "previous": 35,
+            "current": 35,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "YANS-official/ogiri-bokete",
+        "author": "YANS-official",
+        "url": "https://huggingface.co/datasets/YANS-official/ogiri-bokete",
+        "changes": {
+          "downloads": {
+            "previous": 902,
+            "current": 1526,
+            "change": 624
+          },
+          "likes": {
+            "previous": 2,
+            "current": 2,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "MBZUAI/Bactrian-X",
+        "author": "MBZUAI",
+        "url": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "changes": {
+          "downloads": {
+            "previous": 4742,
+            "current": 5361,
+            "change": 619
+          },
+          "likes": {
+            "previous": 121,
+            "current": 121,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "epfml/FineWeb2-embedded",
+        "author": "epfml",
+        "url": "https://huggingface.co/datasets/epfml/FineWeb2-embedded",
+        "changes": {
+          "downloads": {
+            "previous": 8332,
+            "current": 8937,
+            "change": 605
+          },
+          "likes": {
+            "previous": 4,
+            "current": 4,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "floschne/xflickrco",
+        "author": "floschne",
+        "url": "https://huggingface.co/datasets/floschne/xflickrco",
+        "changes": {
+          "downloads": {
+            "previous": 53,
+            "current": 651,
+            "change": 598
+          },
+          "likes": {
+            "previous": 1,
+            "current": 1,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "deepghs/erairaws_infos",
+        "author": "deepghs",
+        "url": "https://huggingface.co/datasets/deepghs/erairaws_infos",
+        "changes": {
+          "downloads": {
+            "previous": 554,
+            "current": 1129,
+            "change": 575
+          },
+          "likes": {
+            "previous": 1,
+            "current": 1,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "deepghs/danbooru2023-webp-4Mpixel_index",
+        "author": "deepghs",
+        "url": "https://huggingface.co/datasets/deepghs/danbooru2023-webp-4Mpixel_index",
+        "changes": {
+          "downloads": {
+            "previous": 2162,
+            "current": 2696,
+            "change": 534
+          },
+          "likes": {
+            "previous": 3,
+            "current": 3,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "dreamerdeo/multispider",
+        "author": "dreamerdeo",
+        "url": "https://huggingface.co/datasets/dreamerdeo/multispider",
+        "changes": {
+          "downloads": {
+            "previous": 452,
+            "current": 976,
+            "change": 524
+          },
+          "likes": {
+            "previous": 3,
+            "current": 3,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "elyza/ELYZA-tasks-100",
+        "author": "elyza",
+        "url": "https://huggingface.co/datasets/elyza/ELYZA-tasks-100",
+        "changes": {
+          "downloads": {
+            "previous": 3477,
+            "current": 3991,
+            "change": 514
+          },
+          "likes": {
+            "previous": 99,
+            "current": 99,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "meetween/mumospee_emilia",
+        "author": "meetween",
+        "url": "https://huggingface.co/datasets/meetween/mumospee_emilia",
+        "changes": {
+          "downloads": {
+            "previous": 1,
+            "current": 511,
+            "change": 510
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "dinhanhx/crossmodal-3600",
+        "author": "dinhanhx",
+        "url": "https://huggingface.co/datasets/dinhanhx/crossmodal-3600",
+        "changes": {
+          "downloads": {
+            "previous": 487,
+            "current": 977,
+            "change": 490
+          },
+          "likes": {
+            "previous": 6,
+            "current": 6,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "csebuetnlp/CrossSum",
+        "author": "csebuetnlp",
+        "url": "https://huggingface.co/datasets/csebuetnlp/CrossSum",
+        "changes": {
+          "downloads": {
+            "previous": 935,
+            "current": 1419,
+            "change": 484
+          },
+          "likes": {
+            "previous": 15,
+            "current": 15,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "VuSnow/Jp-OCR-Pretraining",
+        "author": "VuSnow",
+        "url": "https://huggingface.co/datasets/VuSnow/Jp-OCR-Pretraining",
+        "changes": {
+          "downloads": {
+            "previous": 1028,
+            "current": 1498,
+            "change": 470
+          },
+          "likes": {
+            "previous": 1,
+            "current": 1,
             "change": 0
           },
           "description_changed": false
         }
       }
     ],
-    "unchanged_count": 58
+    "unchanged_count": 81
   },
   "summary": {
-    "new_count": 15,
-    "removed_count": 3,
+    "new_count": 18,
+    "removed_count": 7,
     "updated_count": 50,
-    "unchanged_count": 58,
-    "net_change": 12
+    "unchanged_count": 81,
+    "net_change": 11
   }
 }
