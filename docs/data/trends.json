@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-22T01:42:49.552254",
+  "generated_at": "2025-12-27T08:04:41.298837",
   "trends": {
     "dates": [
       "20251013",
@@ -11,7 +11,8 @@
       "20251201",
       "20251208",
       "20251215",
-      "20251222"
+      "20251222",
+      "20251227"
     ],
     "total_datasets": [
       1680,
@@ -23,7 +24,8 @@
       1745,
       1757,
       1768,
-      1803
+      1803,
+      1818
     ],
     "total_downloads": [
       1452051,
@@ -35,7 +37,8 @@
       1212213,
       1351174,
       1310430,
-      1514621
+      1514621,
+      1624326
     ],
     "total_likes": [
       13995,
@@ -47,7 +50,8 @@
       14643,
       14698,
       14812,
-      14989
+      14989,
+      15065
     ],
     "multilingual_count": [
       837,
@@ -59,13 +63,14 @@
       879,
       886,
       893,
-      918
+      918,
+      926
     ],
-    "growth_rate": 7.32,
+    "growth_rate": 8.21,
     "latest_stats": {
-      "total_datasets": 1803,
-      "total_downloads": 1514621,
-      "total_likes": 14989,
+      "total_datasets": 1818,
+      "total_downloads": 1624326,
+      "total_likes": 15065,
       "top_authors": {
         "Aratako": 51,
         "hpprc": 39,
@@ -79,21 +84,21 @@
         "Silviase": 15
       },
       "top_tasks": {
-        "text-generation": 425,
+        "text-generation": 427,
         "question-answering": 218,
-        "text-classification": 211,
-        "translation": 151,
-        "image-to-text": 71,
-        "text-to-image": 62,
+        "text-classification": 209,
+        "translation": 156,
+        "image-to-text": 72,
+        "text-to-image": 63,
         "image-classification": 61,
         "visual-question-answering": 58,
-        "text-to-speech": 54,
-        "automatic-speech-recognition": 52
+        "text-to-speech": 56,
+        "automatic-speech-recognition": 54
       },
-      "multilingual_count": 918
+      "multilingual_count": 926
     },
     "first_date": "20251013",
-    "last_date": "20251222",
-    "total_weeks": 10
+    "last_date": "20251227",
+    "total_weeks": 11
   }
 }
