@@ -1,7 +1,8 @@
 {
-  "generated_at": "2025-12-27T08:04:41.298837",
+  "generated_at": "2025-12-29T01:46:37.473963",
   "trends": {
     "dates": [
+      "20251012",
       "20251013",
       "20251028",
       "20251108",
@@ -12,9 +13,11 @@
       "20251208",
       "20251215",
       "20251222",
-      "20251227"
+      "20251227",
+      "20251229"
     ],
     "total_datasets": [
+      1326,
       1680,
       1696,
       1700,
@@ -25,9 +28,11 @@
       1757,
       1768,
       1803,
-      1818
+      1818,
+      1821
     ],
     "total_downloads": [
+      890871,
       1452051,
       1249894,
       1278262,
@@ -38,9 +43,11 @@
       1351174,
       1310430,
       1514621,
-      1624326
+      1624326,
+      1563767
     ],
     "total_likes": [
+      10761,
       13995,
       14164,
       14302,
@@ -51,9 +58,11 @@
       14698,
       14812,
       14989,
-      15065
+      15065,
+      15080
     ],
     "multilingual_count": [
+      585,
       837,
       845,
       846,
@@ -64,29 +73,30 @@
       886,
       893,
       918,
-      926
+      926,
+      929
     ],
-    "growth_rate": 8.21,
+    "growth_rate": 37.33,
     "latest_stats": {
-      "total_datasets": 1818,
-      "total_downloads": 1624326,
-      "total_likes": 15065,
+      "total_datasets": 1821,
+      "total_downloads": 1563767,
+      "total_likes": 15080,
       "top_authors": {
         "Aratako": 51,
         "hpprc": 39,
         "llm-jp": 23,
         "deepghs": 22,
         "hotchpotch": 19,
+        "agentlans": 18,
         "ayousanz": 18,
-        "agentlans": 17,
         "p1atdev": 16,
         "HachiML": 15,
         "Silviase": 15
       },
       "top_tasks": {
         "text-generation": 427,
-        "question-answering": 218,
-        "text-classification": 209,
+        "question-answering": 219,
+        "text-classification": 211,
         "translation": 156,
         "image-to-text": 72,
         "text-to-image": 63,
@@ -95,10 +105,10 @@
         "text-to-speech": 56,
         "automatic-speech-recognition": 54
       },
-      "multilingual_count": 926
+      "multilingual_count": 929
     },
-    "first_date": "20251013",
-    "last_date": "20251227",
-    "total_weeks": 11
+    "first_date": "20251012",
+    "last_date": "20251229",
+    "total_weeks": 13
   }
 }
