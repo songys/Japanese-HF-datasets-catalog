@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-29T01:46:37.473963",
+  "generated_at": "2026-01-05T01:49:26.170365",
   "trends": {
     "dates": [
       "20251012",
@@ -14,7 +14,8 @@
       "20251215",
       "20251222",
       "20251227",
-      "20251229"
+      "20251229",
+      "20260105"
     ],
     "total_datasets": [
       1326,
@@ -29,7 +30,8 @@
       1768,
       1803,
       1818,
-      1821
+      1821,
+      1839
     ],
     "total_downloads": [
       890871,
@@ -44,7 +46,8 @@
       1310430,
       1514621,
       1624326,
-      1563767
+      1563767,
+      1511349
     ],
     "total_likes": [
       10761,
@@ -59,7 +62,8 @@
       14812,
       14989,
       15065,
-      15080
+      15080,
+      15212
     ],
     "multilingual_count": [
       585,
@@ -74,41 +78,42 @@
       893,
       918,
       926,
-      929
+      929,
+      940
     ],
-    "growth_rate": 37.33,
+    "growth_rate": 38.69,
     "latest_stats": {
-      "total_datasets": 1821,
-      "total_downloads": 1563767,
-      "total_likes": 15080,
+      "total_datasets": 1839,
+      "total_downloads": 1511349,
+      "total_likes": 15212,
       "top_authors": {
         "Aratako": 51,
         "hpprc": 39,
         "llm-jp": 23,
         "deepghs": 22,
         "hotchpotch": 19,
+        "ayousanz": 19,
         "agentlans": 18,
-        "ayousanz": 18,
         "p1atdev": 16,
         "HachiML": 15,
         "Silviase": 15
       },
       "top_tasks": {
-        "text-generation": 427,
-        "question-answering": 219,
-        "text-classification": 211,
-        "translation": 156,
-        "image-to-text": 72,
-        "text-to-image": 63,
-        "image-classification": 61,
-        "visual-question-answering": 58,
-        "text-to-speech": 56,
-        "automatic-speech-recognition": 54
+        "text-generation": 435,
+        "question-answering": 220,
+        "text-classification": 215,
+        "translation": 157,
+        "image-to-text": 73,
+        "text-to-image": 64,
+        "image-classification": 62,
+        "visual-question-answering": 59,
+        "text-to-speech": 57,
+        "automatic-speech-recognition": 53
       },
-      "multilingual_count": 929
+      "multilingual_count": 940
     },
     "first_date": "20251012",
-    "last_date": "20251229",
-    "total_weeks": 13
+    "last_date": "20260105",
+    "total_weeks": 14
   }
 }
