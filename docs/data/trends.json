@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-09T02:06:32.075227",
+  "generated_at": "2026-02-16T02:04:14.137747",
   "trends": {
     "dates": [
       "20251012",
@@ -20,7 +20,8 @@
       "20260119",
       "20260126",
       "20260202",
-      "20260209"
+      "20260209",
+      "20260216"
     ],
     "total_datasets": [
       1326,
@@ -41,7 +42,8 @@
       1892,
       1920,
       1947,
-      1964
+      1964,
+      1989
     ],
     "total_downloads": [
       890871,
@@ -62,7 +64,8 @@
       2131138,
       2081264,
       2007707,
-      1882566
+      1882566,
+      2386503
     ],
     "total_likes": [
       10761,
@@ -83,7 +86,8 @@
       15489,
       15655,
       15774,
-      15867
+      15867,
+      16049
     ],
     "multilingual_count": [
       585,
@@ -104,13 +108,14 @@
       970,
       993,
       1011,
-      1024
+      1024,
+      1044
     ],
-    "growth_rate": 48.11,
+    "growth_rate": 50.0,
     "latest_stats": {
-      "total_datasets": 1964,
-      "total_downloads": 1882566,
-      "total_likes": 15867,
+      "total_datasets": 1989,
+      "total_downloads": 2386503,
+      "total_likes": 16049,
       "top_authors": {
         "Aratako": 51,
         "hpprc": 39,
@@ -124,21 +129,21 @@
         "HachiML": 15
       },
       "top_tasks": {
-        "text-generation": 470,
-        "question-answering": 239,
-        "text-classification": 225,
-        "translation": 167,
-        "image-to-text": 75,
-        "text-to-speech": 65,
+        "text-generation": 476,
+        "question-answering": 240,
+        "text-classification": 228,
+        "translation": 171,
+        "image-to-text": 77,
+        "text-to-speech": 67,
+        "automatic-speech-recognition": 64,
         "text-to-image": 64,
-        "automatic-speech-recognition": 63,
         "image-classification": 63,
         "visual-question-answering": 61
       },
-      "multilingual_count": 1024
+      "multilingual_count": 1044
     },
     "first_date": "20251012",
-    "last_date": "20260209",
-    "total_weeks": 19
+    "last_date": "20260216",
+    "total_weeks": 20
   }
 }
