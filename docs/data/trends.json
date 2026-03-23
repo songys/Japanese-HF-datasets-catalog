@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T02:22:39.729591",
+  "generated_at": "2026-03-23T02:08:14.633761",
   "trends": {
     "dates": [
       "20251012",
@@ -25,7 +25,8 @@
       "20260223",
       "20260302",
       "20260309",
-      "20260316"
+      "20260316",
+      "20260323"
     ],
     "total_datasets": [
       1326,
@@ -51,7 +52,8 @@
       2016,
       2066,
       2101,
-      2128
+      2128,
+      2158
     ],
     "total_downloads": [
       890871,
@@ -77,7 +79,8 @@
       2691880,
       2794496,
       3246790,
-      3568591
+      3568591,
+      3977379
     ],
     "total_likes": [
       10761,
@@ -103,7 +106,8 @@
       16526,
       16645,
       16742,
-      16849
+      16849,
+      16931
     ],
     "multilingual_count": [
       585,
@@ -129,41 +133,42 @@
       1073,
       1109,
       1131,
-      1147
+      1147,
+      1170
     ],
-    "growth_rate": 60.48,
+    "growth_rate": 62.75,
     "latest_stats": {
-      "total_datasets": 2128,
-      "total_downloads": 3568591,
-      "total_likes": 16849,
+      "total_datasets": 2158,
+      "total_downloads": 3977379,
+      "total_likes": 16931,
       "top_authors": {
         "Aratako": 51,
         "hpprc": 39,
-        "llm-jp": 25,
+        "llm-jp": 26,
         "deepghs": 22,
         "agentlans": 20,
-        "ayousanz": 19,
         "hotchpotch": 19,
+        "ayousanz": 19,
         "Menoviar28": 19,
         "p1atdev": 16,
-        "HachiML": 15
+        "DataPilot": 15
       },
       "top_tasks": {
-        "text-generation": 528,
+        "text-generation": 537,
         "question-answering": 257,
-        "text-classification": 246,
-        "translation": 183,
+        "text-classification": 255,
+        "translation": 186,
         "image-to-text": 81,
-        "text-to-speech": 72,
-        "automatic-speech-recognition": 68,
+        "text-to-speech": 76,
+        "automatic-speech-recognition": 70,
         "image-classification": 68,
         "visual-question-answering": 65,
         "text-to-image": 64
       },
-      "multilingual_count": 1147
+      "multilingual_count": 1170
     },
     "first_date": "20251012",
-    "last_date": "20260316",
-    "total_weeks": 24
+    "last_date": "20260323",
+    "total_weeks": 25
   }
 }
