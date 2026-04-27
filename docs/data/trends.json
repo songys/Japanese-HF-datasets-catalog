@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T02:35:17.103503",
+  "generated_at": "2026-04-27T02:40:10.507464",
   "trends": {
     "dates": [
       "20251012",
@@ -30,7 +30,8 @@
       "20260330",
       "20260406",
       "20260413",
-      "20260420"
+      "20260420",
+      "20260427"
     ],
     "total_datasets": [
       1326,
@@ -61,7 +62,8 @@
       2189,
       2225,
       2273,
-      2324
+      2324,
+      2363
     ],
     "total_downloads": [
       890871,
@@ -92,7 +94,8 @@
       3998579,
       3526292,
       2498085,
-      1568442
+      1568442,
+      1595389
     ],
     "total_likes": [
       10761,
@@ -123,7 +126,8 @@
       17030,
       17143,
       17240,
-      17355
+      17355,
+      17458
     ],
     "multilingual_count": [
       585,
@@ -154,13 +158,14 @@
       1191,
       1216,
       1251,
-      1292
+      1292,
+      1323
     ],
-    "growth_rate": 75.26,
+    "growth_rate": 78.21,
     "latest_stats": {
-      "total_datasets": 2324,
-      "total_downloads": 1568442,
-      "total_likes": 17355,
+      "total_datasets": 2363,
+      "total_downloads": 1595389,
+      "total_likes": 17458,
       "top_authors": {
         "Aratako": 51,
         "hpprc": 39,
@@ -174,21 +179,21 @@
         "p1atdev": 16
       },
       "top_tasks": {
-        "text-generation": 568,
-        "text-classification": 279,
-        "question-answering": 270,
-        "translation": 201,
-        "image-to-text": 93,
-        "automatic-speech-recognition": 90,
-        "text-to-speech": 89,
-        "text-retrieval": 74,
+        "text-generation": 579,
+        "text-classification": 285,
+        "question-answering": 278,
+        "translation": 206,
+        "image-to-text": 98,
+        "text-to-speech": 94,
+        "automatic-speech-recognition": 93,
+        "text-retrieval": 76,
         "image-classification": 74,
-        "visual-question-answering": 71
+        "visual-question-answering": 72
       },
-      "multilingual_count": 1292
+      "multilingual_count": 1323
     },
     "first_date": "20251012",
-    "last_date": "20260420",
-    "total_weeks": 29
+    "last_date": "20260427",
+    "total_weeks": 30
   }
 }
