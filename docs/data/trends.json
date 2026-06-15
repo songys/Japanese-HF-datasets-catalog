@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T03:54:03.914537",
+  "generated_at": "2026-06-15T04:09:15.819311",
   "trends": {
     "dates": [
       "20251012",
@@ -37,7 +37,8 @@
       "20260518",
       "20260525",
       "20260601",
-      "20260608"
+      "20260608",
+      "20260615"
     ],
     "total_datasets": [
       1326,
@@ -75,7 +76,8 @@
       2501,
       2557,
       2593,
-      2654
+      2654,
+      2696
     ],
     "total_downloads": [
       890871,
@@ -113,7 +115,8 @@
       5780177,
       6221839,
       6178349,
-      5401096
+      5401096,
+      3832217
     ],
     "total_likes": [
       10761,
@@ -151,7 +154,8 @@
       17807,
       17917,
       18087,
-      18270
+      18270,
+      18370
     ],
     "multilingual_count": [
       585,
@@ -189,41 +193,42 @@
       1422,
       1463,
       1490,
-      1546
+      1546,
+      1570
     ],
-    "growth_rate": 100.15,
+    "growth_rate": 103.32,
     "latest_stats": {
-      "total_datasets": 2654,
-      "total_downloads": 5401096,
-      "total_likes": 18270,
+      "total_datasets": 2696,
+      "total_downloads": 3832217,
+      "total_likes": 18370,
       "top_authors": {
         "Aratako": 51,
-        "Gingiris": 41,
+        "Gingiris": 42,
         "hpprc": 39,
         "llm-jp": 31,
         "deepghs": 22,
-        "agentlans": 21,
+        "agentlans": 22,
+        "hotchpotch": 20,
         "ayousanz": 20,
-        "hotchpotch": 19,
         "Menoviar28": 19,
         "UTokyo-Yokoya-Lab": 17
       },
       "top_tasks": {
-        "text-generation": 665,
-        "text-classification": 335,
-        "question-answering": 300,
-        "translation": 229,
-        "text-to-speech": 122,
-        "automatic-speech-recognition": 117,
-        "image-to-text": 109,
-        "text-retrieval": 97,
-        "visual-question-answering": 77,
+        "text-generation": 679,
+        "text-classification": 341,
+        "question-answering": 307,
+        "translation": 234,
+        "text-to-speech": 124,
+        "automatic-speech-recognition": 118,
+        "image-to-text": 112,
+        "text-retrieval": 100,
+        "visual-question-answering": 80,
         "image-classification": 76
       },
-      "multilingual_count": 1546
+      "multilingual_count": 1570
     },
     "first_date": "20251012",
-    "last_date": "20260608",
-    "total_weeks": 36
+    "last_date": "20260615",
+    "total_weeks": 37
   }
 }
