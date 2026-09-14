@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T02:57:58.172948",
+  "generated_at": "2026-09-14T03:26:54.256927",
   "trends": {
     "dates": [
       "20251012",
@@ -50,7 +50,8 @@
       "20260817",
       "20260824",
       "20260831",
-      "20260907"
+      "20260907",
+      "20260914"
     ],
     "total_datasets": [
       1326,
@@ -101,7 +102,8 @@
       3013,
       3060,
       3107,
-      3146
+      3146,
+      3198
     ],
     "total_downloads": [
       890871,
@@ -152,7 +154,8 @@
       4310114,
       5334401,
       5618610,
-      4757079
+      4757079,
+      4030945
     ],
     "total_likes": [
       10761,
@@ -203,7 +206,8 @@
       19322,
       19500,
       19677,
-      19895
+      19895,
+      20105
     ],
     "multilingual_count": [
       585,
@@ -254,17 +258,18 @@
       1804,
       1839,
       1873,
-      1894
+      1894,
+      1930
     ],
-    "growth_rate": 137.25,
+    "growth_rate": 141.18,
     "latest_stats": {
-      "total_datasets": 3146,
-      "total_downloads": 4757079,
-      "total_likes": 19895,
+      "total_datasets": 3198,
+      "total_downloads": 4030945,
+      "total_likes": 20105,
       "top_authors": {
         "Aratako": 51,
-        "hpprc": 39,
         "Gingiris": 39,
+        "hpprc": 39,
         "llm-jp": 34,
         "deepghs": 22,
         "agentlans": 22,
@@ -274,21 +279,21 @@
         "UTokyo-Yokoya-Lab": 17
       },
       "top_tasks": {
-        "text-generation": 848,
-        "text-classification": 407,
-        "question-answering": 346,
-        "translation": 271,
-        "automatic-speech-recognition": 146,
+        "text-generation": 873,
+        "text-classification": 416,
+        "question-answering": 354,
+        "translation": 275,
+        "automatic-speech-recognition": 149,
         "text-to-speech": 145,
-        "image-to-text": 125,
-        "text-retrieval": 119,
-        "visual-question-answering": 93,
-        "token-classification": 90
+        "image-to-text": 126,
+        "text-retrieval": 118,
+        "token-classification": 94,
+        "visual-question-answering": 93
       },
-      "multilingual_count": 1894
+      "multilingual_count": 1930
     },
     "first_date": "20251012",
-    "last_date": "20260907",
-    "total_weeks": 49
+    "last_date": "20260914",
+    "total_weeks": 50
   }
 }
