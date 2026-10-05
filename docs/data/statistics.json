@@ -1,33 +1,33 @@
 {
-  "last_updated": "2026-09-28T03:44:16.791090",
+  "last_updated": "2026-10-05T04:08:20.930310",
   "statistics": {
-    "total_datasets": 3329,
-    "total_downloads": 3124663,
-    "total_likes": 20542,
+    "total_datasets": 3391,
+    "total_downloads": 2917331,
+    "total_likes": 20788,
     "top_authors": {
       "Aratako": 51,
       "hpprc": 39,
       "Gingiris": 39,
       "ayousanz": 35,
       "llm-jp": 34,
+      "agentlans": 23,
       "deepghs": 22,
-      "agentlans": 22,
       "hotchpotch": 20,
-      "Menoviar28": 19,
-      "UTokyo-Yokoya-Lab": 17
+      "yuiseki": 19,
+      "Menoviar28": 19
     },
     "top_tasks": {
-      "text-generation": 905,
-      "text-classification": 439,
-      "question-answering": 375,
-      "translation": 278,
-      "automatic-speech-recognition": 163,
-      "text-to-speech": 158,
-      "text-retrieval": 129,
-      "image-to-text": 129,
-      "visual-question-answering": 98,
-      "token-classification": 95
+      "text-generation": 916,
+      "text-classification": 452,
+      "question-answering": 382,
+      "translation": 281,
+      "automatic-speech-recognition": 169,
+      "text-to-speech": 161,
+      "image-to-text": 133,
+      "text-retrieval": 131,
+      "visual-question-answering": 101,
+      "token-classification": 96
     },
-    "multilingual_count": 2019
+    "multilingual_count": 2066
   }
 }
