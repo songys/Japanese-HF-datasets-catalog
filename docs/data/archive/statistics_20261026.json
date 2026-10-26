@@ -1,0 +1,33 @@
+{
+  "last_updated": "2026-10-26T03:17:23.155844",
+  "statistics": {
+    "total_datasets": 3677,
+    "total_downloads": 3460923,
+    "total_likes": 21638,
+    "top_authors": {
+      "Aratako": 51,
+      "yuiseki": 49,
+      "Gingiris": 39,
+      "hpprc": 39,
+      "llm-jp": 36,
+      "ayousanz": 28,
+      "hotchpotch": 24,
+      "agentlans": 23,
+      "deepghs": 22,
+      "sinabis-group": 20
+    },
+    "top_tasks": {
+      "text-generation": 1016,
+      "text-classification": 507,
+      "question-answering": 413,
+      "translation": 290,
+      "automatic-speech-recognition": 177,
+      "text-to-speech": 168,
+      "image-to-text": 145,
+      "text-retrieval": 138,
+      "token-classification": 112,
+      "feature-extraction": 106
+    },
+    "multilingual_count": 2250
+  }
+}
