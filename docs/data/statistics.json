@@ -1,33 +1,33 @@
 {
-  "last_updated": "2026-10-26T03:17:23.155844",
+  "last_updated": "2026-11-02T04:30:32.188505",
   "statistics": {
-    "total_datasets": 3677,
-    "total_downloads": 3460923,
-    "total_likes": 21638,
+    "total_datasets": 3807,
+    "total_downloads": 3707772,
+    "total_likes": 21981,
     "top_authors": {
+      "yuiseki": 72,
       "Aratako": 51,
-      "yuiseki": 49,
-      "Gingiris": 39,
       "hpprc": 39,
-      "llm-jp": 36,
+      "Gingiris": 39,
+      "llm-jp": 37,
       "ayousanz": 28,
+      "agentlans": 25,
       "hotchpotch": 24,
-      "agentlans": 23,
       "deepghs": 22,
-      "sinabis-group": 20
+      "NagaYu": 20
     },
     "top_tasks": {
-      "text-generation": 1016,
-      "text-classification": 507,
-      "question-answering": 413,
-      "translation": 290,
-      "automatic-speech-recognition": 177,
-      "text-to-speech": 168,
-      "image-to-text": 145,
-      "text-retrieval": 138,
-      "token-classification": 112,
-      "feature-extraction": 106
+      "text-generation": 1038,
+      "text-classification": 516,
+      "question-answering": 425,
+      "translation": 295,
+      "automatic-speech-recognition": 189,
+      "text-to-speech": 172,
+      "image-to-text": 151,
+      "text-retrieval": 148,
+      "token-classification": 115,
+      "visual-question-answering": 110
     },
-    "multilingual_count": 2250
+    "multilingual_count": 2339
   }
 }
