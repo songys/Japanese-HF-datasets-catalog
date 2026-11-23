@@ -1,0 +1,33 @@
+{
+  "last_updated": "2026-11-23T05:50:36.967794",
+  "statistics": {
+    "total_datasets": 4103,
+    "total_downloads": 4965893,
+    "total_likes": 22795,
+    "top_authors": {
+      "yuiseki": 74,
+      "HYUKI5": 67,
+      "Aratako": 51,
+      "hpprc": 39,
+      "llm-jp": 37,
+      "ayousanz": 28,
+      "riman-org": 27,
+      "agentlans": 25,
+      "hotchpotch": 24,
+      "deepghs": 22
+    },
+    "top_tasks": {
+      "text-generation": 1077,
+      "text-classification": 563,
+      "question-answering": 462,
+      "translation": 317,
+      "automatic-speech-recognition": 213,
+      "text-to-speech": 180,
+      "text-retrieval": 165,
+      "image-to-text": 155,
+      "token-classification": 125,
+      "feature-extraction": 115
+    },
+    "multilingual_count": 2546
+  }
+}
